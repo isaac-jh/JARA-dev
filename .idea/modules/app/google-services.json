@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315639448559",
+    "firebase_url": "https://jaradreamfairy.firebaseio.com",
+    "project_id": "jaradreamfairy",
+    "storage_bucket": "jaradreamfairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315639448559:android:89b4beb893ab46186dec1a",
+        "android_client_info": {
+          "package_name": "com.example.jara_dreamfairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315639448559-6g2aq44gb4jurrg2fc0muu1mr3tn7rbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jara_dreamfairy",
+            "certificate_hash": "bf2e580f59b417cd39a61cd9483782304c251721"
+          }
+        },
+        {
+          "client_id": "315639448559-dbe2ktu50dpirgakj4b01de28kspgbv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDab6H8HaDpcwAz_3tVcFRxg_3mQGNv5gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315639448559-dbe2ktu50dpirgakj4b01de28kspgbv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
