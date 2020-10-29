@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c5a116-1fc7-48fe-ba30-50ab91eee3ef" name="Default Changelist" comment="" />
+    <list default="true" id="66c5a116-1fc7-48fe-ba30-50ab91eee3ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +33,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jP6nuQoHA7Mzva3vbjJpZREWh8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -106,5 +129,27 @@
       <updated>1603693549453</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1603952072633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.34.1680.1010@0.0.1920.1040" timestamp="1603952072633" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1603951322295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.34.1680.1010@0.0.1920.1040" timestamp="1603951322295" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1603951322295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.34.1680.1010@0.0.1920.1040" timestamp="1603951322295" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1603951322294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.34.1680.1010@0.0.1920.1040" timestamp="1603951322294" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1603951322295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.34.1680.1010@0.0.1920.1040" timestamp="1603951322295" />
   </component>
 </project>
