@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JARA_DreamFairy.iml" filepath="$PROJECT_DIR$/.idea/modules/JARA_DreamFairy.iml" group="JARA_DreamFairy" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="JARA_DreamFairy/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JARA_DreamFairy.iml" filepath="$PROJECT_DIR$/.idea/modules/JARA_DreamFairy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JARA_DreamFairy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JARA_DreamFairy.app.iml" />
     </modules>
   </component>
 </project>
