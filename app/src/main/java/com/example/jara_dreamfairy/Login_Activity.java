@@ -47,7 +47,7 @@ public class Login_Activity extends AppCompatActivity{
             //이미 로그인 되었다면 이 액티비티를 종료함
             finish();
 
-            startActivity(new Intent(Login_Activity.this, start_Activity.class)); //start_Activity추가
+            startActivity(new Intent(Login_Activity.this, Start_Activity.class)); //start_Activity추가
         }
 
 
@@ -71,7 +71,7 @@ public class Login_Activity extends AppCompatActivity{
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()){
                                 finish();
-                                startActivity(new Intent(Login_Activity.this, start_Activity.class));
+                                startActivity(new Intent(Login_Activity.this, Start_Activity.class));
                             }
                             else {
                                 Toast.makeText(Login_Activity.this, "이메일과 비밀번호를 다시 확인해주세요.", Toast.LENGTH_LONG).show();
