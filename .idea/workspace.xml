@@ -13,8 +13,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66c5a116-1fc7-48fe-ba30-50ab91eee3ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/JARA_DreamFairy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/JARA_DreamFairy.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splash_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +55,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
-        <option value="Class" />
         <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -69,6 +87,12 @@
   <component name="RecentsManager">
     <key name="android.template.-1194424525">
       <recent name="com.example.jara_dreamfairy" />
+    </key>
+    <key name="android.template.-1995382105">
+      <recent name="com.example.jara_dreamfairy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\JARA-dev\app\src\main\res\drawable-v24" />
     </key>
   </component>
   <component name="RunManager">
@@ -171,15 +195,25 @@
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="430" y="286" key="#PSD/0.0.1827.1080@0.0.1827.1080" timestamp="1604223879087" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1603979283076">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="728" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1604307373422">
+      <screen x="0" y="0" width="1827" height="1080" />
     </state>
+    <state x="728" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1827.1080@0.0.1827.1080" timestamp="1604307373422" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603979283076" />
-    <state x="513" y="278" key="AndroidCreateResourceFileDialog" timestamp="1604137596438">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="643" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604302967060">
+      <screen x="0" y="0" width="1827" height="1080" />
     </state>
+    <state x="643" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1827.1080@0.0.1827.1080" timestamp="1604302967060" />
+    <state x="410" y="158" key="AndroidCreateResourceFileDialog" timestamp="1604303277395">
+      <screen x="0" y="0" width="1827" height="1080" />
+    </state>
+    <state x="410" y="158" key="AndroidCreateResourceFileDialog/0.0.1827.1080@0.0.1827.1080" timestamp="1604303277395" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.34.1680.1010@0.0.1920.1040" timestamp="1603952072633" />
     <state x="513" y="278" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604137596438" />
+    <state x="757" y="346" key="AndroidCreateXmlResourceDialog" timestamp="1604303792448">
+      <screen x="0" y="0" width="1827" height="1080" />
+    </state>
+    <state x="757" y="346" key="AndroidCreateXmlResourceDialog/0.0.1827.1080@0.0.1827.1080" timestamp="1604303792448" />
     <state x="693" y="294" key="FileChooserDialogImpl" timestamp="1604223736818">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
@@ -208,5 +242,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603980973281" />
+    <state x="164" y="138" width="584" height="804" key="find.popup" timestamp="1604302320129">
+      <screen x="0" y="0" width="1827" height="1080" />
+    </state>
+    <state x="164" y="138" width="584" height="804" key="find.popup/0.0.1827.1080@0.0.1827.1080" timestamp="1604302320129" />
   </component>
 </project>
