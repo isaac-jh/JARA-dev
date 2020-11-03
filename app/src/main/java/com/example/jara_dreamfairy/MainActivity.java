@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -42,8 +41,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Setting_Activity.class);
         startActivity(intent);
     }
-    public void status(View v){
-        Intent intent = new Intent(MainActivity.this, Character_status_Activity.class);
+    public void Character_select(View v){
+        Intent intent = new Intent(MainActivity.this, Character_selection_Activity.class);
+        startActivity(intent);
+    }
+    public void Boss_select(View v){
+        Intent intent = new Intent(MainActivity.this, Character_selection_Activity.class);
         startActivity(intent);
     }
 

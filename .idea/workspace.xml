@@ -190,6 +190,10 @@
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="643" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1827.1080@0.0.1827.1080" timestamp="1604302967060" />
+    <state x="100" y="100" width="1336" height="624" key="AVDManager" timestamp="1604394899452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1604394899452" />
     <state x="410" y="158" key="AndroidCreateResourceFileDialog" timestamp="1604308584559">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
@@ -200,9 +204,10 @@
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="757" y="346" key="AndroidCreateXmlResourceDialog/0.0.1827.1080@0.0.1827.1080" timestamp="1604303792448" />
-    <state x="693" y="294" key="FileChooserDialogImpl" timestamp="1604223736818">
-      <screen x="0" y="0" width="1827" height="1080" />
+    <state x="583" y="224" key="FileChooserDialogImpl" timestamp="1604390875741">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="583" y="224" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604390875741" />
     <state x="693" y="294" key="FileChooserDialogImpl/0.0.1827.1080@0.0.1827.1080" timestamp="1604223736818" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1603951322295">
       <screen x="0" y="0" width="1920" height="1040" />
