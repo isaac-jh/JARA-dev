@@ -29,6 +29,8 @@ public class Start_Activity extends AppCompatActivity {
         if(firebaseAuth.getCurrentUser() == null){
             //로그인 안되어있다면 로그인 액티비티로 이동
             startActivity(new Intent(this, Login_Activity.class));
+
+            overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
         }
 
         tts.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +39,8 @@ public class Start_Activity extends AppCompatActivity {
                 //tts.setImageDrawable(getDrawable(R.drawable.TouchToStart)); //TouchToStart 이미지 후에 만들어서 수정 (반짝하는 모션)
                 delay();
                 startActivity(new Intent(Start_Activity.this, MainActivity.class));
+
+                overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_bottom);
             }
         });
 

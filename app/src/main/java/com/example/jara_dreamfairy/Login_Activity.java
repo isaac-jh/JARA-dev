@@ -70,6 +70,8 @@ public class Login_Activity extends AppCompatActivity{
                                 Log.d("signIn", "signInWithEmail:success");
                                 finish();
                                 startActivity(new Intent(Login_Activity.this, Start_Activity.class));
+
+                                overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_bottom);
                             }
                             else {
                                 Toast.makeText(Login_Activity.this, "이메일과 비밀번호를 다시 확인해주세요.", Toast.LENGTH_LONG).show();
@@ -87,6 +89,8 @@ public class Login_Activity extends AppCompatActivity{
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(Login_Activity.this, Signup_Activity.class));
+
+                    overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
                 }
             });
 

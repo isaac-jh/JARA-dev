@@ -56,6 +56,8 @@ public class Signup_Activity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int id)
                     {
                         startActivity(new Intent(Signup_Activity.this, Login_Activity.class));
+
+                        overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_right);
                     }
                 });
 
@@ -92,6 +94,8 @@ public class Signup_Activity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             finish();
                             startActivity(new Intent(Signup_Activity.this, Login_Activity.class));
+
+                            overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_right);
                         }
                         else {
                             Toast.makeText(Signup_Activity.this, "이미 가입된 이메일입니다.", Toast.LENGTH_SHORT).show();
