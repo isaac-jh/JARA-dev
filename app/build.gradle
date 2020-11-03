@@ -27,13 +27,13 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
-<<<<<<< HEAD
+//<<<<<<< HEAD
     implementation 'androidx.constraintlayout:constraintlayout:2.0.3'
     implementation 'com.google.firebase:firebase-auth:20.0.0'
     implementation 'com.google.firebase:firebase-config:20.0.0'
     implementation 'com.google.firebase:firebase-database:19.5.1'
     testImplementation 'junit:junit:4.13.1'
-=======
+//=======
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.google.firebase:firebase-auth:20.0.0'
     implementation 'com.google.firebase:firebase-config:20.0.0'
@@ -43,7 +43,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     testImplementation 'junit:junit:4.12'
->>>>>>> 83fdb83eaf3044bb624dedce41e545c6163ff740
+//>>>>>>> 83fdb83eaf3044bb624dedce41e545c6163ff740
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 

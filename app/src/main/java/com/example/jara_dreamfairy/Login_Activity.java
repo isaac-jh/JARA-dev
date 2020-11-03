@@ -61,12 +61,12 @@ public class Login_Activity extends AppCompatActivity{
                         Toast.makeText(Login_Activity.this, "email을 입력해 주세요.", Toast.LENGTH_SHORT).show();
                         return;
                     }
-                    if(TextUtils.isEmpty(password))){
+                    if(TextUtils.isEmpty(password)){
                         Toast.makeText(Login_Activity.this, "password를 입력해 주세요.", Toast.LENGTH_SHORT).show();
                         return;
                     }
 
-                    firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(Login_Activity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()){
@@ -87,7 +87,7 @@ public class Login_Activity extends AppCompatActivity{
             SignupButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(Login_Activity.this, Signup_Activity.class);
+                    startActivity(new Intent(Login_Activity.this, Signup_Activity.class));
                 }
             });
 
