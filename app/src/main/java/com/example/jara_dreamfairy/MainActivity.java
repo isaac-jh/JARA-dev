@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
     }
+
     public void equipment(View v){
         Intent intent = new Intent(MainActivity.this, Character_equipment_Activity.class);
         startActivity(intent);
