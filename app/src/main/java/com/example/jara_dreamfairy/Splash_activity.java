@@ -7,28 +7,27 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class Splash_activity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_activity);
-        startSplash();
 
-        Intent intent = new Intent(Splash_activity.this, Start_Activity.class);
-        startActivity(intent);
 
-        overridePendingTransition(R.anim.transition_activity_noting, R.anim.fade_out);
-    }
-
-    private void startSplash() {
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                finish();
+                startActivity(new Intent(Splash_activity.this, Start_Activity.class));
             }
-        },3000); //영상 만드는거 길이 맞춰서 delay 수정
+        },3000);
+
+
+        overridePendingTransition(R.anim.transition_activity_noting, R.anim.fade_out);
     }
 
 

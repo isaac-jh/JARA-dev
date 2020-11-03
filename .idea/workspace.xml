@@ -12,12 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c5a116-1fc7-48fe-ba30-50ab91eee3ef" name="Default Changelist" comment="">
+    <list default="true" id="396c3a2e-81f0-457a-82ce-12ea66f05758" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Login_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Login_Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Signup_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Signup_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Splash_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Splash_activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Start_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jara_dreamfairy/Start_Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66c5a116-1fc7-48fe-ba30-50ab91eee3ef" name="Default Changelist" comment="" />
+      <changelist id="396c3a2e-81f0-457a-82ce-12ea66f05758" name="Default Changelist" comment="" />
       <created>1603693549453</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
