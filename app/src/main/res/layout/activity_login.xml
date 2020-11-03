@@ -21,6 +21,17 @@
 
         <TextView
             android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="23dp"
+            android:textColor="@color/colorAccent"
+            android:text="로그인" />
+
+
+        <TextView
+            android:layout_gravity="center_horizontal"
             android:textColor="@color/colorAccent"
             android:id="@+id/textviewMessage"
             android:text="이메일과 패스워드를 입력해주세요!"
@@ -49,30 +60,40 @@
             android:maxLines="1"
             android:singleLine="true" />
 
+        <Button
+            android:id="@+id/email_sign_in_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/action_sign_in"
+            android:textStyle="bold" />
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_weight="1"
-                android:text="@string/action_sign_in"
-                android:textStyle="bold" />
-
-            <Button
+            <TextView
                 android:id="@+id/email_sign_up_button"
-                style="?android:textAppearanceSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_weight="1"
-                android:text="@string/action_sign_up"
-                android:textStyle="bold" />
+                android:text="신규 회원가입"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:id="@+id/find_password_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="비밀번호 찾기"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
         </LinearLayout>
 
     </LinearLayout>

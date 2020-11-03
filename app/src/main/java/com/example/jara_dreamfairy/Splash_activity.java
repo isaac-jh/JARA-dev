@@ -15,7 +15,7 @@ public class Splash_activity extends AppCompatActivity{
         setContentView(R.layout.splash_activity);
         startSplash();
 
-        Intent intent = new Intent(Splash_activity.this, Login_Activity.class);
+        Intent intent = new Intent(Splash_activity.this, Start_Activity.class);
         startActivity(intent);
 
     }
