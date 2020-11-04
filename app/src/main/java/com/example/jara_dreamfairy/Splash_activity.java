@@ -16,7 +16,7 @@ public class Splash_activity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_activity);
-
+        startSplash();
 
         Timer timer = new Timer();
 
@@ -25,10 +25,19 @@ public class Splash_activity extends AppCompatActivity{
             public void run() {
                 startActivity(new Intent(Splash_activity.this, Login_Activity.class));
             }
-        },3000);
+        },5000);
 
 
+    }
 
+    private void startSplash() {
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                finish();
+            }
+        },10000); //영상 만드는거 길이 맞춰서 delay 수정
     }
 
 

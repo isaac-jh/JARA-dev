@@ -25,10 +25,18 @@
         <activity android:name="com.example.jara_dreamfairy.Setting_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Achiev_Activity" />
         <activity android:name="com.example.jara_dreamfairy.MainActivity" />
+<<<<<<< HEAD
         <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_selection_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Login_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
+=======
+        <activity android:name="com.example.jara_dreamfairy.Login_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Character_status_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
+>>>>>>> taehwan
         <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Start_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Splash_activity" >

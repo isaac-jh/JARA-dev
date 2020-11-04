@@ -13,10 +13,19 @@ com/example/jara_dreamfairy/Achiev_Activity.java
  com.example.jara_dreamfairy.Achiev_Activity
 com/example/jara_dreamfairy/Character_equipment_Activity.java
  com.example.jara_dreamfairy.Character_equipment_Activity
+<<<<<<< HEAD
 com/example/jara_dreamfairy/MainActivity.java
  com.example.jara_dreamfairy.MainActivity
 com/example/jara_dreamfairy/Character_selection_Activity.java
  com.example.jara_dreamfairy.Character_selection_Activity
+=======
+com/example/jara_dreamfairy/Character_status_Activity.java
+ com.example.jara_dreamfairy.Character_status_Activity
+com/example/jara_dreamfairy/MainActivity.java
+ com.example.jara_dreamfairy.MainActivity
+com/example/jara_dreamfairy/select_boss_activity.java
+ com.example.jara_dreamfairy.select_boss_activity
+>>>>>>> taehwan
 com/example/jara_dreamfairy/Start_Activity.java
  com.example.jara_dreamfairy.Start_Activity
 com/example/jara_dreamfairy/Signup_Activity.java
@@ -24,3 +33,7 @@ com/example/jara_dreamfairy/Signup_Activity.java
 com/example/jara_dreamfairy/Splash_activity.java
  com.example.jara_dreamfairy.Splash_activity
  com.example.jara_dreamfairy.Splash_activity$1
+<<<<<<< HEAD
+=======
+ com.example.jara_dreamfairy.Splash_activity$2
+>>>>>>> taehwan
