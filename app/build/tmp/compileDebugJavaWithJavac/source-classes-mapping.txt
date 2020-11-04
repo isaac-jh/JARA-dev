@@ -1,10 +1,6 @@
-com/example/jara_dreamfairy/Login_Activity.java
- com.example.jara_dreamfairy.Login_Activity
- com.example.jara_dreamfairy.Login_Activity$1
- com.example.jara_dreamfairy.Login_Activity$1$1
- com.example.jara_dreamfairy.Login_Activity$2
- com.example.jara_dreamfairy.Login_Activity$3
- com.example.jara_dreamfairy.Login_Activity$3$1
+com/example/jara_dreamfairy/Splash_activity.java
+ com.example.jara_dreamfairy.Splash_activity
+ com.example.jara_dreamfairy.Splash_activity$1
 com/example/jara_dreamfairy/Marketplace_Activity.java
  com.example.jara_dreamfairy.Marketplace_Activity
 com/example/jara_dreamfairy/Setting_Activity.java
@@ -19,6 +15,13 @@ com/example/jara_dreamfairy/Character_status_Activity.java
  com.example.jara_dreamfairy.Character_status_Activity
 com/example/jara_dreamfairy/MainActivity.java
  com.example.jara_dreamfairy.MainActivity
+com/example/jara_dreamfairy/Login_Activity.java
+ com.example.jara_dreamfairy.Login_Activity
+ com.example.jara_dreamfairy.Login_Activity$1
+ com.example.jara_dreamfairy.Login_Activity$1$1
+ com.example.jara_dreamfairy.Login_Activity$2
+ com.example.jara_dreamfairy.Login_Activity$3
+ com.example.jara_dreamfairy.Login_Activity$3$1
 com/example/jara_dreamfairy/Start_Activity.java
  com.example.jara_dreamfairy.Start_Activity
  com.example.jara_dreamfairy.Start_Activity$1
@@ -30,6 +33,3 @@ com/example/jara_dreamfairy/Signup_Activity.java
  com.example.jara_dreamfairy.Signup_Activity$1$2
  com.example.jara_dreamfairy.Signup_Activity$2
  com.example.jara_dreamfairy.Signup_Activity$2$1
-com/example/jara_dreamfairy/Splash_activity.java
- com.example.jara_dreamfairy.Splash_activity
- com.example.jara_dreamfairy.Splash_activity$1

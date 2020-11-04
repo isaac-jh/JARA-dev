@@ -27,9 +27,13 @@
         <activity android:name="com.example.jara_dreamfairy.Setting_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Achiev_Activity" />
         <activity android:name="com.example.jara_dreamfairy.MainActivity" />
-        <activity
-            android:name="com.example.jara_dreamfairy.Splash_activity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Login_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Start_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Character_status_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Splash_activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

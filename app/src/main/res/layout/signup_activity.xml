@@ -31,7 +31,7 @@
 
         <TextView
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorWarning"
             android:id="@+id/signUptextviewMessage"
             android:text="회원가입 할 이메일과 패스워드를 입력해주세요!\n이메일은 후에 비밀번호를 찾을때 사용됩니다."
             android:lines="2"
@@ -46,9 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/prompt_email_signup"
-            android:inputType="textEmailAddress"
-            android:maxLines="1"
-            android:singleLine="true" />
+            android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/password_sign_up"
@@ -56,11 +54,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/prompt_password_signup"
             android:imeActionId="6"
-            android:imeActionLabel="@string/action_sign_in"
             android:imeOptions="actionUnspecified"
             android:inputType="textPassword"
-            android:maxLines="1"
-            android:singleLine="true" />
+            android:maxLines="1" />
 
         <EditText
             android:id="@+id/password_again"
@@ -68,11 +64,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/prompt_password_again"
             android:imeActionId="6"
-            android:imeActionLabel="@string/action_sign_in"
             android:imeOptions="actionUnspecified"
             android:inputType="textPassword"
-            android:maxLines="1"
-            android:singleLine="true" />
+            android:maxLines="1" />
 
         <LinearLayout
             android:layout_width="match_parent"

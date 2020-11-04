@@ -49,11 +49,14 @@ public class Login_Activity extends AppCompatActivity{
 
 
         SigninButton.setOnClickListener(new View.OnClickListener() {
-                String email = emailValue.getText().toString().trim();
-                String password = passwordValue.getText().toString().trim();
+
 
                 @Override
                 public void onClick(View v) {
+
+                    String email = emailValue.getText().toString();
+                    String password = passwordValue.getText().toString();
+
                     if(TextUtils.isEmpty(email)){
                         Toast.makeText(Login_Activity.this, "email을 입력해 주세요.", Toast.LENGTH_SHORT).show();
                         return;
@@ -96,10 +99,10 @@ public class Login_Activity extends AppCompatActivity{
 
             findPassword.setOnClickListener(new View.OnClickListener() {
 
-                String email = emailValue.getText().toString().trim();
-
                 @Override
                 public void onClick(View v) {
+
+                    String email = emailValue.getText().toString();
 
                     firebaseAuth.sendPasswordResetEmail(email)
                             .addOnCompleteListener(new OnCompleteListener<Void>() {

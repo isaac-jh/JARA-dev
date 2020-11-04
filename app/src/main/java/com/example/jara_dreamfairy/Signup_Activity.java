@@ -24,7 +24,6 @@ public class Signup_Activity extends AppCompatActivity {
     private EditText emailValue;
     private EditText passwordValue;
     private EditText passwordValueCheck;
-    private TextView textViewValue;
     private TextView returnButton;
     private Button signupButton;
 
@@ -36,7 +35,6 @@ public class Signup_Activity extends AppCompatActivity {
         emailValue = (EditText)findViewById(R.id.email_sign_up);
         passwordValue = (EditText)findViewById(R.id.password_sign_up);
         passwordValueCheck = (EditText)findViewById(R.id.password_again);
-        textViewValue = (TextView)findViewById(R.id.signUptextviewMessage);
         returnButton = (TextView)findViewById(R.id.email_return_button);
         signupButton = (Button)findViewById(R.id.sign_up_button);
 
@@ -76,12 +74,12 @@ public class Signup_Activity extends AppCompatActivity {
 
         signupButton.setOnClickListener(new View.OnClickListener() {
 
-            String email = emailValue.getText().toString().trim();
-            String password = passwordValue.getText().toString().trim();
-            String passwordCheck = passwordValueCheck.getText().toString().trim();
-
             @Override
             public void onClick(View v) {
+
+                String email = emailValue.getText().toString();
+                String password = passwordValue.getText().toString();
+                String passwordCheck = passwordValueCheck.getText().toString();
 
                 if (!checkEmailForm(email))
                     return;
@@ -114,17 +112,18 @@ public class Signup_Activity extends AppCompatActivity {
     private boolean checkEmailForm(String email) {
         boolean flag1 = false;
         boolean flag2 = false;
+
         for (int i = 0; i < email.length(); i++) {
-            if (email.indexOf('@') > -1)
+            if (email.charAt(i) == '@')
                 flag1 = true;
-            if (email.indexOf('.') > -1)
+            else if (email.charAt(i) == '.')
                 flag2 = true;
 
         }
-        if (flag1 == true && flag2 == true)
+        if (flag1 && flag2)
             return true;
         else {
-            Toast.makeText(Signup_Activity.this, "이메일 형식이 맞지 않습니다.", Toast.LENGTH_LONG).show();
+            Toast.makeText(Signup_Activity.this, "\n이메일 형식이 맞지 않습니다.", Toast.LENGTH_LONG).show();
             return false;
         }
     }
