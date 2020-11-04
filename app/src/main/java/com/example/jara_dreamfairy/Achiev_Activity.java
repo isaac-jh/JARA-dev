@@ -3,13 +3,14 @@ package com.example.jara_dreamfairy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
 
-public class Achiev_Activity extends AppCompatActivity {
+public class Achiev_Activity extends AppCompatActivity implements View.OnClickListener {
 
     private LinearLayout[] linearLayout = new LinearLayout[5];
     private ImageButton[] imageButton = new ImageButton[5];
@@ -40,4 +41,11 @@ public class Achiev_Activity extends AppCompatActivity {
 
 
     }
+
+    @Override
+    public void onClick(View v) {
+
+    }
+
+
 }
