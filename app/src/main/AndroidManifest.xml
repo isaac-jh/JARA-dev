@@ -17,7 +17,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Login_Activity"/>
         <activity android:name=".Character_equipment_Activity"/>
-        <activity android:name=".Character_status_Activity"/>
+        <activity android:name=".Character_selection_Activity"/>
         <activity android:name=".Marketplace_Activity"/>
         <activity android:name=".select_boss_activity"/>
         <activity android:name=".Signup_Activity"/>

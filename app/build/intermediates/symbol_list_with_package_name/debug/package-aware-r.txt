@@ -123,10 +123,7 @@ attr barrierDirection
 attr barrierMargin
 attr behavior_autoHide
 attr behavior_autoShrink
-<<<<<<< HEAD
-=======
 attr behavior_draggable
->>>>>>> taehwan
 attr behavior_expandedOffset
 attr behavior_fitToContents
 attr behavior_halfExpandedRatio
@@ -149,10 +146,7 @@ attr boxCornerRadiusBottomStart
 attr boxCornerRadiusTopEnd
 attr boxCornerRadiusTopStart
 attr boxStrokeColor
-<<<<<<< HEAD
-=======
 attr boxStrokeErrorColor
->>>>>>> taehwan
 attr boxStrokeWidth
 attr boxStrokeWidthFocused
 attr brightness
@@ -348,10 +342,7 @@ attr endIconTintMode
 attr enforceMaterialTheme
 attr enforceTextAppearance
 attr ensureMinTouchTargetSize
-<<<<<<< HEAD
-=======
 attr errorContentDescription
->>>>>>> taehwan
 attr errorEnabled
 attr errorIconDrawable
 attr errorIconTint
@@ -416,14 +407,10 @@ attr fontWeight
 attr foregroundInsidePadding
 attr framePosition
 attr gapBetweenBars
-<<<<<<< HEAD
-attr goIcon
-=======
 attr gestureInsetBottomIgnored
 attr goIcon
 attr haloColor
 attr haloRadius
->>>>>>> taehwan
 attr headerLayout
 attr height
 attr helperText
@@ -439,10 +426,7 @@ attr hintTextAppearance
 attr hintTextColor
 attr homeAsUpIndicator
 attr homeLayout
-<<<<<<< HEAD
-=======
 attr horizontalOffset
->>>>>>> taehwan
 attr hoveredFocusedTranslationZ
 attr icon
 attr iconEndPadding
@@ -487,11 +471,8 @@ attr itemTextAppearanceInactive
 attr itemTextColor
 attr keyPositionType
 attr keylines
-<<<<<<< HEAD
-=======
 attr labelBehavior
 attr labelStyle
->>>>>>> taehwan
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
 attr layout
@@ -607,10 +588,7 @@ attr maxButtonHeight
 attr maxCharacterCount
 attr maxHeight
 attr maxImageSize
-<<<<<<< HEAD
-=======
 attr maxLines
->>>>>>> taehwan
 attr maxVelocity
 attr maxWidth
 attr measureWithLargestChild
@@ -650,14 +628,10 @@ attr onTouchUp
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
-<<<<<<< HEAD
-attr paddingEnd
-=======
 attr paddingBottomSystemWindowInsets
 attr paddingEnd
 attr paddingLeftSystemWindowInsets
 attr paddingRightSystemWindowInsets
->>>>>>> taehwan
 attr paddingStart
 attr paddingTopNoTitle
 attr panelBackground
@@ -676,23 +650,17 @@ attr percentX
 attr percentY
 attr perpendicularPath_percent
 attr pivotAnchor
-<<<<<<< HEAD
-=======
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
->>>>>>> taehwan
 attr placeholder_emptyVisibility
 attr popupMenuBackground
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
-<<<<<<< HEAD
-=======
 attr prefixText
 attr prefixTextAppearance
 attr prefixTextColor
->>>>>>> taehwan
 attr preserveIconSpacing
 attr pressedTranslationZ
 attr progressBarPadding
@@ -724,10 +692,7 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
-<<<<<<< HEAD
-=======
 attr selectionRequired
->>>>>>> taehwan
 attr shapeAppearance
 attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
@@ -744,15 +709,10 @@ attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
 attr sizePercent
-<<<<<<< HEAD
-attr snackbarButtonStyle
-attr snackbarStyle
-=======
 attr sliderStyle
 attr snackbarButtonStyle
 attr snackbarStyle
 attr snackbarTextViewStyle
->>>>>>> taehwan
 attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
@@ -783,12 +743,9 @@ attr subtitle
 attr subtitleTextAppearance
 attr subtitleTextColor
 attr subtitleTextStyle
-<<<<<<< HEAD
-=======
 attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
->>>>>>> taehwan
 attr suggestionRowLayout
 attr switchMinWidth
 attr switchPadding
@@ -850,21 +807,13 @@ attr textAppearanceSubtitle2
 attr textColorAlertDialogListItem
 attr textColorSearchUrl
 attr textEndPadding
-<<<<<<< HEAD
-=======
 attr textInputLayoutFocusedRectEnabled
->>>>>>> taehwan
 attr textInputStyle
 attr textLocale
 attr textStartPadding
 attr theme
 attr themeLineHeight
 attr thickness
-<<<<<<< HEAD
-attr thumbTextPadding
-attr thumbTint
-attr thumbTintMode
-=======
 attr thumbColor
 attr thumbElevation
 attr thumbRadius
@@ -874,7 +823,6 @@ attr thumbTintMode
 attr tickColor
 attr tickColorActive
 attr tickColorInactive
->>>>>>> taehwan
 attr tickMark
 attr tickMarkTint
 attr tickMarkTintMode
@@ -896,43 +844,31 @@ attr toolbarNavigationButtonStyle
 attr toolbarStyle
 attr tooltipForegroundColor
 attr tooltipFrameBackground
-<<<<<<< HEAD
-=======
 attr tooltipStyle
->>>>>>> taehwan
 attr tooltipText
 attr touchAnchorId
 attr touchAnchorSide
 attr touchRegionId
 attr track
-<<<<<<< HEAD
-=======
 attr trackColor
 attr trackColorActive
 attr trackColorInactive
 attr trackHeight
->>>>>>> taehwan
 attr trackTint
 attr trackTintMode
 attr transitionDisable
 attr transitionEasing
 attr transitionFlags
 attr transitionPathRotate
-<<<<<<< HEAD
-=======
 attr transitionShapeAppearance
->>>>>>> taehwan
 attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
 attr useCompatPadding
 attr useMaterialThemeColors
-<<<<<<< HEAD
-=======
 attr values
 attr verticalOffset
->>>>>>> taehwan
 attr viewInflaterClass
 attr visibilityMode
 attr voiceIcon
@@ -1088,8 +1024,6 @@ color material_on_primary_emphasis_medium
 color material_on_surface_disabled
 color material_on_surface_emphasis_high_type
 color material_on_surface_emphasis_medium
-<<<<<<< HEAD
-=======
 color material_on_surface_stroke
 color material_slider_active_tick_marks_color
 color material_slider_active_track_color
@@ -1097,7 +1031,6 @@ color material_slider_halo_color
 color material_slider_inactive_tick_marks_color
 color material_slider_inactive_track_color
 color material_slider_thumb_color
->>>>>>> taehwan
 color mtrl_bottom_nav_colored_item_tint
 color mtrl_bottom_nav_colored_ripple_color
 color mtrl_bottom_nav_item_tint
@@ -1123,14 +1056,8 @@ color mtrl_choice_chip_background_color
 color mtrl_choice_chip_ripple_color
 color mtrl_choice_chip_text_color
 color mtrl_error
-<<<<<<< HEAD
-color mtrl_extended_fab_bg_color_selector
-color mtrl_extended_fab_ripple_color
-color mtrl_extended_fab_text_color_selector
-=======
 color mtrl_fab_bg_color_selector
 color mtrl_fab_icon_text_color_selector
->>>>>>> taehwan
 color mtrl_fab_ripple_color
 color mtrl_filled_background_color
 color mtrl_filled_icon_tint
@@ -1165,10 +1092,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-<<<<<<< HEAD
-=======
 color radiobutton_themeable_attribute_color
->>>>>>> taehwan
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1432,10 +1356,7 @@ dimen mtrl_card_elevation
 dimen mtrl_card_spacing
 dimen mtrl_chip_pressed_translation_z
 dimen mtrl_chip_text_size
-<<<<<<< HEAD
-=======
 dimen mtrl_edittext_rectangle_top_offset
->>>>>>> taehwan
 dimen mtrl_exposed_dropdown_menu_popup_elevation
 dimen mtrl_exposed_dropdown_menu_popup_vertical_offset
 dimen mtrl_exposed_dropdown_menu_popup_vertical_padding
@@ -1479,8 +1400,6 @@ dimen mtrl_navigation_item_shape_vertical_margin
 dimen mtrl_shape_corner_size_large_component
 dimen mtrl_shape_corner_size_medium_component
 dimen mtrl_shape_corner_size_small_component
-<<<<<<< HEAD
-=======
 dimen mtrl_slider_halo_radius
 dimen mtrl_slider_label_padding
 dimen mtrl_slider_label_radius
@@ -1491,7 +1410,6 @@ dimen mtrl_slider_track_height
 dimen mtrl_slider_track_side_padding
 dimen mtrl_slider_track_top
 dimen mtrl_slider_widget_height
->>>>>>> taehwan
 dimen mtrl_snackbar_action_text_color_alpha
 dimen mtrl_snackbar_background_corner_radius
 dimen mtrl_snackbar_background_overlay_color_alpha
@@ -1502,23 +1420,17 @@ dimen mtrl_textinput_box_corner_radius_small
 dimen mtrl_textinput_box_label_cutout_padding
 dimen mtrl_textinput_box_stroke_width_default
 dimen mtrl_textinput_box_stroke_width_focused
-<<<<<<< HEAD
-=======
 dimen mtrl_textinput_counter_margin_start
->>>>>>> taehwan
 dimen mtrl_textinput_end_icon_margin_start
 dimen mtrl_textinput_outline_box_expanded_padding
 dimen mtrl_textinput_start_icon_margin_end
 dimen mtrl_toolbar_default_height
-<<<<<<< HEAD
-=======
 dimen mtrl_tooltip_arrowSize
 dimen mtrl_tooltip_cornerSize
 dimen mtrl_tooltip_minHeight
 dimen mtrl_tooltip_minWidth
 dimen mtrl_tooltip_padding
 dimen mtrl_transition_shared_axis_slide_distance
->>>>>>> taehwan
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -1632,12 +1544,9 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
-<<<<<<< HEAD
-=======
 drawable boss_amp
 drawable boss_monitor
 drawable boss_mosquito
->>>>>>> taehwan
 drawable btn_achiev
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1674,26 +1583,12 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-<<<<<<< HEAD
-drawable ic_calendar_black_24dp
-drawable ic_clear_black_24dp
-drawable ic_edit_black_24dp
-drawable ic_keyboard_arrow_left_black_24dp
-drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_menu_arrow_down_black_24dp
-drawable ic_menu_arrow_up_black_24dp
-=======
-drawable ic_launcher_background
-drawable ic_launcher_foreground
->>>>>>> taehwan
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-<<<<<<< HEAD
-=======
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1701,7 +1596,6 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
->>>>>>> taehwan
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1775,8 +1669,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-<<<<<<< HEAD
-=======
 id achiev_1
 id achiev_1_imagebutton
 id achiev_1_progressbar
@@ -1792,7 +1684,6 @@ id achiev_4_progressbar
 id achiev_5
 id achiev_5_imagebutton
 id achiev_5_progressbar
->>>>>>> taehwan
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1832,24 +1723,17 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
-<<<<<<< HEAD
-=======
 id boss_amp
 id boss_amp_text
 id boss_monitor
 id boss_monitor_text
 id boss_mosquito
 id boss_mosquito_text
->>>>>>> taehwan
 id bottom
 id bounce
 id button
 id button2
 id button3
-<<<<<<< HEAD
-=======
-id button4
->>>>>>> taehwan
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1861,12 +1745,9 @@ id chains
 id checkbox
 id checked
 id chip
-<<<<<<< HEAD
-=======
 id chip1
 id chip2
 id chip3
->>>>>>> taehwan
 id chip_group
 id chronometer
 id clear_text
@@ -1927,18 +1808,11 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-<<<<<<< HEAD
-id filter_chip
-id fitToContents
-id fixed
-id flip
-=======
 id fitToContents
 id fixed
 id flip
 id flipper
 id floating
->>>>>>> taehwan
 id forever
 id ghost_view
 id ghost_view_holder
@@ -1952,12 +1826,9 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
-<<<<<<< HEAD
-=======
 id ibtn_next
 id ibtn_prev
 id ibtn_select
->>>>>>> taehwan
 id icon
 id icon_group
 id icon_only
@@ -1965,7 +1836,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-<<<<<<< HEAD
 id imageButton
 id imageButton11
 id imageButton12
@@ -1977,11 +1847,6 @@ id imageButton4
 id imageButton5
 id imageButton6
 id imageButton7
-=======
-id imageButton2
-id imageButton3
-id imageButton4
->>>>>>> taehwan
 id imageView
 id imageView16
 id imageView17
@@ -1995,10 +1860,7 @@ id imageView24
 id imageView25
 id imageView26
 id imageView27
-<<<<<<< HEAD
 id imageView3
-=======
->>>>>>> taehwan
 id info
 id invisible
 id italic
@@ -2037,10 +1899,7 @@ id mtrl_calendar_year_selector_frame
 id mtrl_card_checked_layer_id
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
-<<<<<<< HEAD
-=======
 id mtrl_motion_snapshot_view
->>>>>>> taehwan
 id mtrl_picker_fullscreen
 id mtrl_picker_header
 id mtrl_picker_header_selection_text
@@ -2082,19 +1941,13 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-<<<<<<< HEAD
-=======
 id return_main_button
->>>>>>> taehwan
 id reverseSawtooth
 id right
 id right_icon
 id right_side
 id rounded
-<<<<<<< HEAD
-=======
 id row_index_key
->>>>>>> taehwan
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2105,10 +1958,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-<<<<<<< HEAD
-=======
 id scrollview_achiv
->>>>>>> taehwan
 id search_badge
 id search_bar
 id search_button
@@ -2163,11 +2013,8 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
-<<<<<<< HEAD
-=======
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
->>>>>>> taehwan
 id text
 id text2
 id textEnd
@@ -2175,33 +2022,23 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-<<<<<<< HEAD
 id textView10
 id textView11
-=======
->>>>>>> taehwan
 id textView2
 id textView3
 id textView4
 id textView5
-<<<<<<< HEAD
-id textView6
 id textView7
 id textView8
 id textView9
-=======
->>>>>>> taehwan
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-<<<<<<< HEAD
-=======
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
->>>>>>> taehwan
 id textviewMessage
 id time
 id title
@@ -2228,15 +2065,10 @@ id view_offset_helper
 id visible
 id wide
 id withText
-<<<<<<< HEAD
-id wrap
-id wrap_content
-=======
 id withinBounds
 id wrap
 id wrap_content
 id zero_corner_chip
->>>>>>> taehwan
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -2304,11 +2136,7 @@ layout activity_main
 layout activity_setting_
 layout activity_start
 layout character_equipment_activity
-<<<<<<< HEAD
 layout character_selection_activity
-=======
-layout character_status_activity
->>>>>>> taehwan
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2368,13 +2196,9 @@ layout signup_activity
 layout splash_activity
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
-<<<<<<< HEAD
-layout test_design_checkbox
-=======
 layout test_chip_zero_corner_radius
 layout test_design_checkbox
 layout test_design_radiobutton
->>>>>>> taehwan
 layout test_reflow_chipgroup
 layout test_toolbar
 layout test_toolbar_custom_background
@@ -2459,11 +2283,6 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string invalid_password
 string invalid_username
-<<<<<<< HEAD
-string login_failed
-string mtrl_badge_numberless_content_description
-string mtrl_chip_close_icon_content_description
-=======
 string item_view_role_description
 string login_failed
 string material_slider_range_end
@@ -2471,7 +2290,6 @@ string material_slider_range_start
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
->>>>>>> taehwan
 string mtrl_exceed_max_badge_number_suffix
 string mtrl_picker_a11y_next_month
 string mtrl_picker_a11y_prev_month
@@ -2519,10 +2337,7 @@ string status_bar_notification_info_overflow
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
-<<<<<<< HEAD
-=======
 style AndroidThemeColorAccentYellow
->>>>>>> taehwan
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
@@ -2634,11 +2449,8 @@ style Base_ThemeOverlay_AppCompat_Dialog_Alert
 style Base_ThemeOverlay_AppCompat_Light
 style Base_ThemeOverlay_MaterialComponents_Dialog
 style Base_ThemeOverlay_MaterialComponents_Dialog_Alert
-<<<<<<< HEAD
-=======
 style Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework
 style Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework
->>>>>>> taehwan
 style Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog
 style Base_V14_Theme_MaterialComponents
 style Base_V14_Theme_MaterialComponents_Bridge
@@ -2656,13 +2468,10 @@ style Base_V21_Theme_AppCompat
 style Base_V21_Theme_AppCompat_Dialog
 style Base_V21_Theme_AppCompat_Light
 style Base_V21_Theme_AppCompat_Light_Dialog
-<<<<<<< HEAD
-=======
 style Base_V21_Theme_MaterialComponents
 style Base_V21_Theme_MaterialComponents_Dialog
 style Base_V21_Theme_MaterialComponents_Light
 style Base_V21_Theme_MaterialComponents_Light_Dialog
->>>>>>> taehwan
 style Base_V21_ThemeOverlay_AppCompat_Dialog
 style Base_V22_Theme_AppCompat
 style Base_V22_Theme_AppCompat_Light
@@ -2747,10 +2556,7 @@ style Base_Widget_MaterialComponents_PopupMenu
 style Base_Widget_MaterialComponents_PopupMenu_ContextMenu
 style Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow
 style Base_Widget_MaterialComponents_PopupMenu_Overflow
-<<<<<<< HEAD
-=======
 style Base_Widget_MaterialComponents_Slider
->>>>>>> taehwan
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
@@ -2804,10 +2610,7 @@ style ShapeAppearance_MaterialComponents_LargeComponent
 style ShapeAppearance_MaterialComponents_MediumComponent
 style ShapeAppearance_MaterialComponents_SmallComponent
 style ShapeAppearance_MaterialComponents_Test
-<<<<<<< HEAD
-=======
 style ShapeAppearance_MaterialComponents_Tooltip
->>>>>>> taehwan
 style ShapeAppearanceOverlay
 style ShapeAppearanceOverlay_BottomLeftDifferentCornerSize
 style ShapeAppearanceOverlay_BottomRightCut
@@ -2893,14 +2696,10 @@ style TextAppearance_Design_Counter_Overflow
 style TextAppearance_Design_Error
 style TextAppearance_Design_HelperText
 style TextAppearance_Design_Hint
-<<<<<<< HEAD
-style TextAppearance_Design_Snackbar_Message
-=======
 style TextAppearance_Design_Placeholder
 style TextAppearance_Design_Prefix
 style TextAppearance_Design_Snackbar_Message
 style TextAppearance_Design_Suffix
->>>>>>> taehwan
 style TextAppearance_Design_Tab
 style TextAppearance_MaterialComponents_Badge
 style TextAppearance_MaterialComponents_Body1
@@ -2917,10 +2716,7 @@ style TextAppearance_MaterialComponents_Headline6
 style TextAppearance_MaterialComponents_Overline
 style TextAppearance_MaterialComponents_Subtitle1
 style TextAppearance_MaterialComponents_Subtitle2
-<<<<<<< HEAD
-=======
 style TextAppearance_MaterialComponents_Tooltip
->>>>>>> taehwan
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
@@ -3028,15 +2824,10 @@ style ThemeOverlay_MaterialComponents_Dark_ActionBar
 style ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog
 style ThemeOverlay_MaterialComponents_Dialog
 style ThemeOverlay_MaterialComponents_Dialog_Alert
-<<<<<<< HEAD
-style ThemeOverlay_MaterialComponents_Light
-style ThemeOverlay_MaterialComponents_Light_BottomSheetDialog
-=======
 style ThemeOverlay_MaterialComponents_Dialog_Alert_Framework
 style ThemeOverlay_MaterialComponents_Light
 style ThemeOverlay_MaterialComponents_Light_BottomSheetDialog
 style ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework
->>>>>>> taehwan
 style ThemeOverlay_MaterialComponents_MaterialAlertDialog
 style ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered
 style ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date
@@ -3053,10 +2844,7 @@ style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
-<<<<<<< HEAD
-=======
 style ThemeOverlayColorAccentRed
->>>>>>> taehwan
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -3141,10 +2929,7 @@ style Widget_Design_NavigationView
 style Widget_Design_ScrimInsetsFrameLayout
 style Widget_Design_Snackbar
 style Widget_Design_TabLayout
-<<<<<<< HEAD
-=======
 style Widget_Design_TextInputEditText
->>>>>>> taehwan
 style Widget_Design_TextInputLayout
 style Widget_MaterialComponents_ActionBar_Primary
 style Widget_MaterialComponents_ActionBar_PrimarySurface
@@ -3216,16 +3001,11 @@ style Widget_MaterialComponents_PopupMenu
 style Widget_MaterialComponents_PopupMenu_ContextMenu
 style Widget_MaterialComponents_PopupMenu_ListPopupWindow
 style Widget_MaterialComponents_PopupMenu_Overflow
-<<<<<<< HEAD
-style Widget_MaterialComponents_Snackbar
-style Widget_MaterialComponents_Snackbar_FullWidth
-=======
 style Widget_MaterialComponents_ShapeableImageView
 style Widget_MaterialComponents_Slider
 style Widget_MaterialComponents_Snackbar
 style Widget_MaterialComponents_Snackbar_FullWidth
 style Widget_MaterialComponents_Snackbar_TextView
->>>>>>> taehwan
 style Widget_MaterialComponents_TabLayout
 style Widget_MaterialComponents_TabLayout_Colored
 style Widget_MaterialComponents_TabLayout_PrimarySurface
@@ -3246,10 +3026,7 @@ style Widget_MaterialComponents_Toolbar
 style Widget_MaterialComponents_Toolbar_Primary
 style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
-<<<<<<< HEAD
-=======
 style Widget_MaterialComponents_Tooltip
->>>>>>> taehwan
 style Widget_Support_CoordinatorLayout
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
@@ -3269,17 +3046,6 @@ styleable AppCompatSeekBar android_thumb tickMark tickMarkTint tickMarkTintMode
 styleable AppCompatTextHelper android_textAppearance android_drawableTop android_drawableBottom android_drawableLeft android_drawableRight android_drawableStart android_drawableEnd
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
-<<<<<<< HEAD
-styleable Badge backgroundColor badgeGravity badgeTextColor maxCharacterCount number
-styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll
-styleable BottomNavigationView backgroundTint elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
-styleable BottomSheetBehavior_Layout android_elevation backgroundTint behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed shapeAppearance shapeAppearanceOverlay
-styleable ButtonBarLayout allowStacking
-styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
-styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
-styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
-styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
-=======
 styleable Badge backgroundColor badgeGravity badgeTextColor horizontalOffset maxCharacterCount number verticalOffset
 styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable BottomNavigationView backgroundTint elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
@@ -3289,7 +3055,6 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance maxLines scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
->>>>>>> taehwan
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
 styleable CompoundButton android_button buttonCompat buttonTint buttonTintMode
@@ -3303,11 +3068,7 @@ styleable CustomAttribute attributeName customBoolean customColorDrawableValue c
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
-<<<<<<< HEAD
-styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
-=======
 styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
->>>>>>> taehwan
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
@@ -3316,10 +3077,7 @@ styleable ForegroundLinearLayout android_foreground android_foregroundGravity fo
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth
-<<<<<<< HEAD
-=======
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
->>>>>>> taehwan
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate
 styleable KeyCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveOffset wavePeriod waveShape waveVariesBy
 styleable KeyFrame
@@ -3335,23 +3093,14 @@ styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerti
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
-<<<<<<< HEAD
-styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom android_checkable backgroundTint backgroundTintMode cornerRadius elevation icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
-styleable MaterialButtonToggleGroup checkedButton singleSelection
-=======
 styleable MaterialAutoCompleteTextView android_inputType
 styleable MaterialButton android_background android_insetLeft android_insetRight android_insetTop android_insetBottom android_checkable backgroundTint backgroundTintMode cornerRadius elevation icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable MaterialButtonToggleGroup checkedButton selectionRequired singleSelection
->>>>>>> taehwan
 styleable MaterialCalendar android_windowFullscreen dayInvalidStyle daySelectedStyle dayStyle dayTodayStyle rangeFillColor yearSelectedStyle yearStyle yearTodayStyle
 styleable MaterialCalendarItem android_insetLeft android_insetRight android_insetTop android_insetBottom itemFillColor itemShapeAppearance itemShapeAppearanceOverlay itemStrokeColor itemStrokeWidth itemTextColor
 styleable MaterialCardView android_checkable cardForegroundColor checkedIcon checkedIconTint rippleColor shapeAppearance shapeAppearanceOverlay state_dragged strokeColor strokeWidth
 styleable MaterialCheckBox buttonTint useMaterialThemeColors
-<<<<<<< HEAD
-styleable MaterialRadioButton useMaterialThemeColors
-=======
 styleable MaterialRadioButton buttonTint useMaterialThemeColors
->>>>>>> taehwan
 styleable MaterialShape shapeAppearance shapeAppearanceOverlay
 styleable MaterialTextAppearance android_lineHeight lineHeight
 styleable MaterialTextView android_textAppearance android_lineHeight lineHeight
@@ -3370,27 +3119,18 @@ styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceler
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
-<<<<<<< HEAD
-=======
 styleable RangeSlider values
->>>>>>> taehwan
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
-<<<<<<< HEAD
-styleable SignInButton buttonSize colorScheme scopeUris
-styleable Snackbar snackbarButtonStyle snackbarStyle
-styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha elevation maxActionInlineWidth
-=======
 styleable ShapeableImageView shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable SignInButton buttonSize colorScheme scopeUris
 styleable Slider android_enabled android_value android_stepSize android_valueFrom android_valueTo haloColor haloRadius labelBehavior labelStyle thumbColor thumbElevation thumbRadius tickColor tickColorActive tickColorInactive trackColor trackColorActive trackColorInactive trackHeight
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha backgroundTint backgroundTintMode elevation maxActionInlineWidth
->>>>>>> taehwan
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
@@ -3401,17 +3141,11 @@ styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text
 styleable TabLayout tabBackground tabContentStart tabGravity tabIconTint tabIconTintMode tabIndicator tabIndicatorAnimationDuration tabIndicatorColor tabIndicatorFullWidth tabIndicatorGravity tabIndicatorHeight tabInlineLabel tabMaxWidth tabMinWidth tabMode tabPadding tabPaddingBottom tabPaddingEnd tabPaddingStart tabPaddingTop tabRippleColor tabSelectedTextColor tabTextAppearance tabTextColor tabUnboundedRipple
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily android_textFontWeight fontFamily fontVariationSettings textAllCaps textLocale
-<<<<<<< HEAD
-styleable TextInputLayout android_textColorHint android_hint boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeWidth boxStrokeWidthFocused counterEnabled counterMaxLength counterOverflowTextAppearance counterOverflowTextColor counterTextAppearance counterTextColor endIconCheckable endIconContentDescription endIconDrawable endIconMode endIconTint endIconTintMode errorEnabled errorIconDrawable errorIconTint errorIconTintMode errorTextAppearance errorTextColor helperText helperTextEnabled helperTextTextAppearance helperTextTextColor hintAnimationEnabled hintEnabled hintTextAppearance hintTextColor passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode shapeAppearance shapeAppearanceOverlay startIconCheckable startIconContentDescription startIconDrawable startIconTint startIconTintMode
-styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
-styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
-=======
 styleable TextInputEditText textInputLayoutFocusedRectEnabled
 styleable TextInputLayout android_enabled android_textColorHint android_hint boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeErrorColor boxStrokeWidth boxStrokeWidthFocused counterEnabled counterMaxLength counterOverflowTextAppearance counterOverflowTextColor counterTextAppearance counterTextColor endIconCheckable endIconContentDescription endIconDrawable endIconMode endIconTint endIconTintMode errorContentDescription errorEnabled errorIconDrawable errorIconTint errorIconTintMode errorTextAppearance errorTextColor helperText helperTextEnabled helperTextTextAppearance helperTextTextColor hintAnimationEnabled hintEnabled hintTextAppearance hintTextColor passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode placeholderText placeholderTextAppearance placeholderTextColor prefixText prefixTextAppearance prefixTextColor shapeAppearance shapeAppearanceOverlay startIconCheckable startIconContentDescription startIconDrawable startIconTint startIconTintMode suffixText suffixTextAppearance suffixTextColor
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
 styleable Tooltip android_textAppearance android_padding android_layout_margin android_minWidth android_minHeight android_text backgroundTint
->>>>>>> taehwan
 styleable Transform android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation
 styleable Transition android_id autoTransition constraintSetEnd constraintSetStart duration layoutDuringTransition motionInterpolator pathMotionArc staggered transitionDisable transitionFlags
 styleable Variant constraints region_heightLessThan region_heightMoreThan region_widthLessThan region_widthMoreThan
@@ -3423,7 +3157,4 @@ xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start
 xml standalone_badge_gravity_top_start
-<<<<<<< HEAD
-=======
 xml standalone_badge_offset
->>>>>>> taehwan
