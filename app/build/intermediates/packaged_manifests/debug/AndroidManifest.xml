@@ -10,8 +10,11 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+=======
+>>>>>>> master
 
     <application
         android:allowBackup="true"
@@ -27,12 +30,22 @@
         <activity android:name="com.example.jara_dreamfairy.Setting_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Achiev_Activity" />
         <activity android:name="com.example.jara_dreamfairy.MainActivity" />
+<<<<<<< HEAD
         <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Login_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Start_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_status_Activity" />
+=======
+        <activity android:name="com.example.jara_dreamfairy.Login_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Character_selection_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
+        <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Start_Activity" />
+>>>>>>> master
         <activity android:name="com.example.jara_dreamfairy.Splash_activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -108,17 +121,21 @@
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+<<<<<<< HEAD
                 android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+=======
+>>>>>>> master
                 android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
+<<<<<<< HEAD
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
@@ -145,6 +162,10 @@
             </intent-filter>
         </receiver>
 
+=======
+        </service>
+
+>>>>>>> master
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -160,6 +181,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+<<<<<<< HEAD
 
         <service
             android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
@@ -177,6 +199,8 @@
         <receiver
             android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
             android:exported="false" />
+=======
+>>>>>>> master
     </application>
 
 </manifest>

@@ -9,6 +9,6 @@ public class Character_selection_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.character_select_activity);
+        setContentView(R.layout.character_selection_activity);
     }
 }

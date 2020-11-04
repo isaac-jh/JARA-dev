@@ -27,6 +27,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+<<<<<<< HEAD
 anim fade_in
 anim fade_out
 anim mtrl_bottom_sheet_slide_in
@@ -41,6 +42,11 @@ anim transition_activity_left_to_center
 anim transition_activity_noting
 anim transition_activity_right_to_center
 anim transition_activity_top_to_center
+=======
+anim mtrl_bottom_sheet_slide_in
+anim mtrl_bottom_sheet_slide_out
+anim mtrl_card_lowers_interpolator
+>>>>>>> master
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -955,7 +961,10 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+<<<<<<< HEAD
 color colorWarning
+=======
+>>>>>>> master
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1556,6 +1565,12 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+<<<<<<< HEAD
+=======
+drawable boss_amp
+drawable boss_monitor
+drawable boss_mosquito
+>>>>>>> master
 drawable btn_achiev
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1644,7 +1659,10 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+<<<<<<< HEAD
 id TTS
+=======
+>>>>>>> master
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1679,6 +1697,24 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+<<<<<<< HEAD
+=======
+id achiev_1
+id achiev_1_imagebutton
+id achiev_1_progressbar
+id achiev_2
+id achiev_2_imagebutton
+id achiev_2_progressbar
+id achiev_3
+id achiev_3_imagebutton
+id achiev_3_progressbar
+id achiev_4
+id achiev_4_imagebutton
+id achiev_4_progressbar
+id achiev_5
+id achiev_5_imagebutton
+id achiev_5_progressbar
+>>>>>>> master
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1718,12 +1754,24 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+<<<<<<< HEAD
+=======
+id boss_amp
+id boss_amp_text
+id boss_monitor
+id boss_monitor_text
+id boss_mosquito
+id boss_mosquito_text
+>>>>>>> master
 id bottom
 id bounce
 id button
 id button2
 id button3
+<<<<<<< HEAD
 id button4
+=======
+>>>>>>> master
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1785,11 +1833,16 @@ id easeOut
 id edit_query
 id email
 id email_login_form
+<<<<<<< HEAD
 id email_return_button
 id email_sign_in_button
 id email_sign_up
 id email_sign_up_button
 id email_sign_up_form
+=======
+id email_sign_in_button
+id email_sign_up_button
+>>>>>>> master
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1801,10 +1854,17 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+<<<<<<< HEAD
 id find_password_button
 id fitToContents
 id fixed
 id flip
+=======
+id fitToContents
+id fixed
+id flip
+id flipper
+>>>>>>> master
 id floating
 id forever
 id ghost_view
@@ -1819,6 +1879,12 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+<<<<<<< HEAD
+=======
+id ibtn_next
+id ibtn_prev
+id ibtn_select
+>>>>>>> master
 id icon
 id icon_group
 id icon_only
@@ -1826,9 +1892,23 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+<<<<<<< HEAD
 id imageButton2
 id imageButton3
 id imageButton4
+=======
+id imageButton
+id imageButton11
+id imageButton12
+id imageButton13
+id imageButton14
+id imageButton2
+id imageButton3
+id imageButton4
+id imageButton5
+id imageButton6
+id imageButton7
+>>>>>>> master
 id imageView
 id imageView16
 id imageView17
@@ -1842,6 +1922,10 @@ id imageView24
 id imageView25
 id imageView26
 id imageView27
+<<<<<<< HEAD
+=======
+id imageView3
+>>>>>>> master
 id info
 id invisible
 id italic
@@ -1909,8 +1993,11 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password
+<<<<<<< HEAD
 id password_again
 id password_sign_up
+=======
+>>>>>>> master
 id password_toggle
 id path
 id pathRelative
@@ -1924,6 +2011,10 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+<<<<<<< HEAD
+=======
+id return_main_button
+>>>>>>> master
 id reverseSawtooth
 id right
 id right_icon
@@ -1940,6 +2031,10 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+<<<<<<< HEAD
+=======
+id scrollview_achiv
+>>>>>>> master
 id search_badge
 id search_bar
 id search_button
@@ -1956,8 +2051,11 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+<<<<<<< HEAD
 id signUptextviewMessage
 id sign_up_button
+=======
+>>>>>>> master
 id sin
 id skipCollapsed
 id slide
@@ -2005,11 +2103,22 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+<<<<<<< HEAD
+=======
+id textView10
+id textView11
+>>>>>>> master
 id textView2
 id textView3
 id textView4
 id textView5
+<<<<<<< HEAD
 id textView6
+=======
+id textView7
+id textView8
+id textView9
+>>>>>>> master
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2068,7 +2177,10 @@ integer mtrl_card_anim_delay_ms
 integer mtrl_card_anim_duration_ms
 integer mtrl_chip_anim_duration
 integer mtrl_tab_indicator_anim_duration_ms
+<<<<<<< HEAD
 integer screen_in_time
+=======
+>>>>>>> master
 integer show_password_duration
 integer status_bar_notification_info_maxnum
 interpolator btn_checkbox_checked_mtrl_animation_interpolator_0
@@ -2116,7 +2228,11 @@ layout activity_main
 layout activity_setting_
 layout activity_start
 layout character_equipment_activity
+<<<<<<< HEAD
 layout character_status_activity
+=======
+layout character_selection_activity
+>>>>>>> master
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2224,7 +2340,10 @@ string action_sign_in
 string action_sign_up
 string app_name
 string appbar_scrolling_view_behavior
+<<<<<<< HEAD
 string back
+=======
+>>>>>>> master
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_overflowed_content_description
@@ -2254,7 +2373,10 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+<<<<<<< HEAD
 string fcm_fallback_notification_channel_label
+=======
+>>>>>>> master
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -2263,7 +2385,14 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+<<<<<<< HEAD
 string item_view_role_description
+=======
+string invalid_password
+string invalid_username
+string item_view_role_description
+string login_failed
+>>>>>>> master
 string material_slider_range_end
 string material_slider_range_start
 string mtrl_badge_numberless_content_description
@@ -2310,10 +2439,17 @@ string project_id
 string prompt_email
 string prompt_email_signup
 string prompt_password
+<<<<<<< HEAD
 string prompt_password_again
 string prompt_password_signup
 string search_menu_title
 string status_bar_notification_info_overflow
+=======
+string prompt_password_signup
+string search_menu_title
+string status_bar_notification_info_overflow
+string welcome
+>>>>>>> master
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
