@@ -17,15 +17,8 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
-        <activity
-            android:name=".Social_Activity"
-            android:label="@string/title_activity_social">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Social_Activity"/>
+        <activity android:name=".Time_Running_Activity"/>
         <activity android:name=".Setting_Activity" />
         <activity android:name=".Achiev_Activity" />
         <activity android:name=".MainActivity" />
