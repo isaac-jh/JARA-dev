@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,329 +7,397 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageButton
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:paddingLeft="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:id="@+id/return_main_button"
-            android:contentDescription="TODO" />
-
-    </LinearLayout>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
-        android:paddingTop="75dp"
-        android:foregroundGravity="center"
-        android:id="@+id/scrollview_achiv"
-        tools:ignore="MissingConstraints">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:paddingRight="10px"
+            android:layout_width="match_parent"
+            android:layout_height="125dp">
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollview_achiv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:id="@+id/achiev_1">
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="#111111"
-                android:gravity="right">
-
-                <LinearLayout
-                    android:layout_width="280dp"
-                    android:layout_height="150dp"
-                    android:orientation="vertical"
-                    android:gravity="right">
-
-                    <TextView
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="top"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        android:text="업적1"
-                        android:textSize="35dp"
-                        android:textAlignment="center"
-                        tools:ignore="RtlCompat">
-
-                    </TextView>
-                    <ProgressBar
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="bottom"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginBottom="25dp"
-                        android:id="@+id/achiev_1_progressbar">
-
-                    </ProgressBar>
-                </LinearLayout>
-
-
-                <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/achiev_1_imagebutton">
-
-                </ImageButton>
-                
-
-
-            </LinearLayout>
+            android:foregroundGravity="center"
+            tools:ignore="MissingConstraints">
 
             <LinearLayout
+                android:id="@+id/achiev_1"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="#222222"
-                android:gravity="right"
-                android:id="@+id/achiev_2">
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="10px">
+
 
                 <LinearLayout
-                    android:layout_width="280dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:orientation="vertical"
+                    android:background="#111111"
                     android:gravity="right">
 
-                    <TextView
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="top"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        android:text="업적2"
-                        android:textSize="35dp"
-                        android:textAlignment="center"
-                        tools:ignore="RtlCompat">
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
 
-                    </TextView>
-                    <ProgressBar
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="bottom"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginBottom="25dp"
-                        android:id="@+id/achiev_2_progressbar">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적1"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
 
-                    </ProgressBar>
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_1_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/achiev_1_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp">
+
+                    </ImageButton>
+
+
                 </LinearLayout>
-
-
-                <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/achiev_2_imagebutton">
-
-                </ImageButton>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="#333333"
-                android:gravity="right"
-                android:id="@+id/achiev_3">
 
                 <LinearLayout
-                    android:layout_width="280dp"
+                    android:id="@+id/achiev_2"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:orientation="vertical"
+                    android:background="#222222"
                     android:gravity="right">
 
-                    <TextView
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="top"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        android:text="업적3"
-                        android:textSize="35dp"
-                        android:textAlignment="center"
-                        tools:ignore="RtlCompat">
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
 
-                    </TextView>
-                    <ProgressBar
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="bottom"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginBottom="25dp"
-                        android:id="@+id/achiev_3_progressbar">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적2"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
 
-                    </ProgressBar>
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_2_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/achiev_2_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp">
+
+                    </ImageButton>
+
+
                 </LinearLayout>
-
-
-                <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/achiev_3_imagebutton">
-
-                </ImageButton>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="#444444"
-                android:gravity="right"
-                android:id="@+id/achiev_4">
 
                 <LinearLayout
-                    android:layout_width="280dp"
+                    android:id="@+id/achiev_3"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:orientation="vertical"
+                    android:background="#333333"
                     android:gravity="right">
 
-                    <TextView
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="top"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        android:text="업적4"
-                        android:textSize="35dp"
-                        android:textAlignment="center"
-                        tools:ignore="RtlCompat">
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
 
-                    </TextView>
-                    <ProgressBar
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="bottom"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginBottom="25dp"
-                        android:id="@+id/achiev_4_progressbar">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적3"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
 
-                    </ProgressBar>
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_3_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/achiev_3_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp">
+
+                    </ImageButton>
+
+
                 </LinearLayout>
-
-
-                <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/achiev_4_imagebutton">
-                </ImageButton>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="#555555"
-                android:gravity="right"
-                android:id="@+id/achiev_5">
 
                 <LinearLayout
-                    android:layout_width="280dp"
+                    android:id="@+id/achiev_4"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:orientation="vertical"
+                    android:background="#444444"
                     android:gravity="right">
 
-                    <TextView
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="top"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        android:text="업적1"
-                        android:textSize="35dp"
-                        android:textAlignment="center"
-                        tools:ignore="RtlCompat">
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
 
-                    </TextView>
-                    <ProgressBar
-                        android:layout_width="250dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="bottom"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginBottom="25dp"
-                        android:id="@+id/achiev_5_progressbar">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적4"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
 
-                    </ProgressBar>
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_4_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/achiev_4_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"></ImageButton>
+
+
                 </LinearLayout>
 
+                <LinearLayout
+                    android:id="@+id/achiev_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#555555"
+                    android:gravity="right">
 
-                <ImageButton
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/achiev_5_imagebutton">
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
 
-                </ImageButton>
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적1"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_5_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
 
 
+                    <ImageButton
+                        android:id="@+id/achiev_5_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp">
 
+                    </ImageButton>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/achiev_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#555555"
+                    android:gravity="right">
+
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적1"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_6_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/achiev_6_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp">
+
+                    </ImageButton>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/achiev_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#555555"
+                    android:gravity="right">
+
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="150dp"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:text="업적1"
+                            android:textAlignment="center"
+                            android:textSize="35dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <ProgressBar
+                            android:id="@+id/achiev_7_progressbar"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="25dp">
+
+                        </ProgressBar>
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/achiev_7_imagebutton"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp">
+
+                    </ImageButton>
+
+
+                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/ibtn_prev">
-        </ImageButton>
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/ibtn_next">
-        </ImageButton>
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/ibtn_select">
-        </ImageButton>
-
-
+        </ScrollView>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

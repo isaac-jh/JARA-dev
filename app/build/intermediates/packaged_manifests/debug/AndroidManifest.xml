@@ -31,15 +31,8 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
-        <activity
-            android:name="com.example.jara_dreamfairy.Social_Activity"
-            android:label="@string/title_activity_social" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.example.jara_dreamfairy.Social_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.Time_Running_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Setting_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Achiev_Activity" />
         <activity android:name="com.example.jara_dreamfairy.MainActivity" />
