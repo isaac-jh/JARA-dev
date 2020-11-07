@@ -11,9 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
 public class Start_Activity extends AppCompatActivity {
 
     private ImageButton tts;
@@ -53,13 +50,13 @@ public class Start_Activity extends AppCompatActivity {
 
     }
     private void delay() {
-        Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-
+                finish();
             }
-        },2000);
+        },2000); //영상 만드는거 길이 맞춰서 delay 수정
     }
 
 }
