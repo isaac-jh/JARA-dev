@@ -146,3 +146,7 @@ fabric.properties
 *.iml
 *.lock
 *.ser
+*.bin
+*.lock
+*.dex
+*.json

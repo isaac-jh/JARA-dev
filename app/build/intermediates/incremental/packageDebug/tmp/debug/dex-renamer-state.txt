@@ -1,7 +1,7 @@
-#Thu Nov 05 04:16:38 KST 2020
-base.0=D\:\\github\\JARA-dev\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sat Nov 07 18:44:53 KST 2020
+base.0=D\:\\Github\\JARA-dev\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\github\\JARA-dev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=D\:\\Github\\JARA-dev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

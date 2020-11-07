@@ -15,6 +15,8 @@ com/example/jara_dreamfairy/Achiev_Activity.java
  com.example.jara_dreamfairy.Achiev_Activity
 com/example/jara_dreamfairy/Character_equipment_Activity.java
  com.example.jara_dreamfairy.Character_equipment_Activity
+ com.example.jara_dreamfairy.Character_equipment_Activity$1
+ com.example.jara_dreamfairy.Character_equipment_Activity$2
 com/example/jara_dreamfairy/MainActivity.java
  com.example.jara_dreamfairy.MainActivity
  com.example.jara_dreamfairy.MainActivity$1
@@ -37,10 +39,21 @@ com/example/jara_dreamfairy/Signup_Activity.java
  com.example.jara_dreamfairy.Signup_Activity$2$1
 com/example/jara_dreamfairy/Marketplace_Activity.java
  com.example.jara_dreamfairy.Marketplace_Activity
+ com.example.jara_dreamfairy.Marketplace_Activity$1
+com/example/jara_dreamfairy/Time_Running_Activity.java
+ com.example.jara_dreamfairy.Time_Running_Activity
+ com.example.jara_dreamfairy.Time_Running_Activity$1
+ com.example.jara_dreamfairy.Time_Running_Activity$2
+ com.example.jara_dreamfairy.Time_Running_Activity$3
 com/example/jara_dreamfairy/select_boss_activity.java
  com.example.jara_dreamfairy.select_boss_activity
 com/example/jara_dreamfairy/Character_selection_Activity.java
  com.example.jara_dreamfairy.Character_selection_Activity
+ com.example.jara_dreamfairy.Character_selection_Activity$1
+ com.example.jara_dreamfairy.Character_selection_Activity$2
+ com.example.jara_dreamfairy.Character_selection_Activity$3
+ com.example.jara_dreamfairy.Character_selection_Activity$4
+ com.example.jara_dreamfairy.Character_selection_Activity$5
 com/example/jara_dreamfairy/Splash_activity.java
  com.example.jara_dreamfairy.Splash_activity
  com.example.jara_dreamfairy.Splash_activity$1
