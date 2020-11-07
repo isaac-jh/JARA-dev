@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -14,14 +15,17 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.jara_dreamfairy.model.UserModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class Signup_Activity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
+    private FirebaseDatabase firebaseDatabase;
     private EditText emailValue;
     private EditText passwordValue;
     private EditText passwordValueCheck;
@@ -31,7 +35,7 @@ public class Signup_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.signup_activity);
 
         emailValue = (EditText)findViewById(R.id.email_sign_up);
@@ -88,14 +92,35 @@ public class Signup_Activity extends AppCompatActivity {
                 else if (!checkPasswordForm(password, passwordCheck))
                     return;
 
+                // 회원가입
                 firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(Signup_Activity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            finish();
-                            startActivity(new Intent(Signup_Activity.this, Login_Activity.class));
 
-                            overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_right);
+                            // 유저 기본 정보 데이터베이스에 등록
+                            String uid = firebaseAuth.getCurrentUser().getUid();
+
+                            firebaseDatabase = FirebaseDatabase.getInstance();
+
+                            UserModel userModel = new UserModel();
+
+                            firebaseDatabase.getReference().child("user").child(uid).setValue(userModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                    if(task.isSuccessful()){
+                                        finish();
+                                        startActivity(new Intent(Signup_Activity.this, Login_Activity.class));
+
+                                        overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_right);
+                                    }
+                                    else {
+                                        Toast.makeText(Signup_Activity.this, "데이터 쓰기 오류", Toast.LENGTH_SHORT).show();
+                                    }
+
+                                }
+                            });
+
                         }
                         else {
                             Toast.makeText(Signup_Activity.this, "이미 가입된 이메일입니다.", Toast.LENGTH_SHORT).show();
