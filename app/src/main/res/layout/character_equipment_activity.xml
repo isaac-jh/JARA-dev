@@ -7,127 +7,129 @@
 
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/weapon4_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="19dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintBottom_toBottomOf="@+id/weapon1_equipment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView26"
-        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:layout_constraintStart_toEndOf="@+id/weapon3_equipment"
+        app:layout_constraintTop_toTopOf="@+id/weapon2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/weapon_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="35dp"
         android:gravity="center"
         android:text="무기"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView24"
-        app:layout_constraintStart_toStartOf="@+id/imageView20"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+        app:layout_constraintBottom_toTopOf="@+id/weapon1_equipment"
+        app:layout_constraintStart_toStartOf="@+id/Armor1_equipment"
+        app:layout_constraintTop_toBottomOf="@+id/Armor1_equipment" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/weapon2_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView26"
-        app:layout_constraintStart_toEndOf="@+id/imageView24"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:layout_constraintEnd_toStartOf="@+id/weapon3_equipment"
+        app:layout_constraintStart_toEndOf="@+id/weapon1_equipment"
+        app:layout_constraintTop_toBottomOf="@+id/Armor2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView24"
+        android:id="@+id/weapon1_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/imageView25"
+        app:layout_constraintEnd_toStartOf="@+id/weapon2_equipment"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/weapon2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/weapon3_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/imageView27"
-        app:layout_constraintStart_toEndOf="@+id/imageView25"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:layout_constraintEnd_toStartOf="@+id/weapon4_equipment"
+        app:layout_constraintStart_toEndOf="@+id/weapon2_equipment"
+        app:layout_constraintTop_toTopOf="@+id/weapon4_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/Armor4_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="19dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+        app:layout_constraintBottom_toBottomOf="@+id/Armor2_equipment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView22"
-        app:layout_constraintTop_toTopOf="@+id/imageView21"
+        app:layout_constraintStart_toEndOf="@+id/Armor3_equipment"
+        app:layout_constraintTop_toTopOf="@+id/Armor2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView22"
+        android:id="@+id/Armor3_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/imageView23"
-        app:layout_constraintStart_toEndOf="@+id/imageView21"
-        app:layout_constraintTop_toTopOf="@+id/imageView23"
+        app:layout_constraintEnd_toStartOf="@+id/Armor4_equipment"
+        app:layout_constraintStart_toEndOf="@+id/Armor2_equipment"
+        app:layout_constraintTop_toTopOf="@+id/Armor4_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/Armor1_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="23dp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
+        app:layout_constraintEnd_toStartOf="@+id/Armor2_equipment"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/Armor2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Armor_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="355dp"
         android:gravity="center"
-        android:text="옷"
+        android:text="방어구"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView16"
-        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+        app:layout_constraintStart_toStartOf="@+id/Head1_equipment"
+        app:layout_constraintTop_toBottomOf="@+id/Head1_equipment"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/Armor2_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView25"
-        app:layout_constraintEnd_toStartOf="@+id/imageView22"
-        app:layout_constraintStart_toEndOf="@+id/imageView20"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintBottom_toTopOf="@+id/weapon2_equipment"
+        app:layout_constraintEnd_toStartOf="@+id/Armor3_equipment"
+        app:layout_constraintStart_toEndOf="@+id/Armor1_equipment"
+        app:layout_constraintTop_toBottomOf="@+id/Head2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/Head4_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintBottom_toTopOf="@+id/Armor4_equipment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:layout_constraintStart_toEndOf="@+id/Head3_equipment"
+        app:layout_constraintTop_toTopOf="@+id/Head2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Head_text"
         android:layout_width="38dp"
         android:layout_height="0dp"
         android:layout_marginStart="52dp"
@@ -137,45 +139,45 @@
         android:gravity="center"
         android:text="머리"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/equip"
+        app:layout_constraintEnd_toStartOf="@+id/character_equipment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/Head2_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView21"
-        app:layout_constraintEnd_toStartOf="@+id/imageView18"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/Armor2_equipment"
+        app:layout_constraintEnd_toStartOf="@+id/Head3_equipment"
+        app:layout_constraintStart_toEndOf="@+id/Head1_equipment"
+        app:layout_constraintTop_toBottomOf="@+id/character_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/Head1_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView20"
-        app:layout_constraintEnd_toStartOf="@+id/imageView17"
+        app:layout_constraintBottom_toTopOf="@+id/Armor1_equipment"
+        app:layout_constraintEnd_toStartOf="@+id/Head2_equipment"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/Head2_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/Head3_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/imageView19"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toStartOf="@+id/Head4_equipment"
+        app:layout_constraintStart_toEndOf="@+id/Head2_equipment"
+        app:layout_constraintTop_toTopOf="@+id/Head4_equipment"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/equipment"
         android:layout_width="68dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
@@ -183,61 +185,60 @@
         android:gravity="center"
         android:text="장비"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/character_equipment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/character_equipment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="142dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="77dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
-        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintBottom_toTopOf="@+id/Head2_equipment"
+        app:layout_constraintEnd_toStartOf="@+id/Item_text_equipment"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/equipment"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="75dp"
+        android:id="@+id/Item_text_equipment"
+        android:layout_width="64dp"
+        android:layout_height="90dp"
         android:layout_marginEnd="71dp"
-        android:layout_marginBottom="489dp"
         android:gravity="center"
         android:text="드랍율 10% 골드획득량 10%"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintBottom_toBottomOf="@+id/character_equipment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/character_equipment"
+        app:layout_constraintTop_toTopOf="@+id/character_equipment"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/equip"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="86dp"
         android:layout_marginEnd="91dp"
         android:layout_marginBottom="37dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintEnd_toStartOf="@+id/release"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/Head_text"
         app:srcCompat="@android:drawable/presence_online" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/release"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="88dp"
         android:layout_marginBottom="37dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/equip"
+        app:layout_constraintTop_toTopOf="@+id/equip"
         app:srcCompat="@android:drawable/presence_online" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
