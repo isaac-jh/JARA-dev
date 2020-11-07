@@ -1,12 +1,17 @@
 package com.example.jara_dreamfairy;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -32,6 +37,10 @@ public class Time_Running_Activity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.time_running_activity);
 
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
+                | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD );
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         mTextViewCountDown = (TextView) findViewById(R.id.timer_text);
         mButtonStart = (Button) findViewById(R.id.start_bnt_time_running);
         mButtonReset = (Button) findViewById(R.id.reset_bnt_time_running);
@@ -46,6 +55,7 @@ public class Time_Running_Activity extends AppCompatActivity {
                 }
             }
         });
+        
 
 
         mButtonReset.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +77,7 @@ public class Time_Running_Activity extends AppCompatActivity {
                 @Override
                 public void onFinish() {
                     mTimerRunning=false;
-                    mButtonStart.setText("start");
+                    mButtonStart.setText("Start");
                     mButtonReset.setVisibility(View.INVISIBLE);
                     mButtonReset.setVisibility(View.VISIBLE);
                 }
