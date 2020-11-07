@@ -37,6 +37,7 @@ com/example/jara_dreamfairy/Signup_Activity.java
  com.example.jara_dreamfairy.Signup_Activity$1$2
  com.example.jara_dreamfairy.Signup_Activity$2
  com.example.jara_dreamfairy.Signup_Activity$2$1
+ com.example.jara_dreamfairy.Signup_Activity$2$1$1
 com/example/jara_dreamfairy/Marketplace_Activity.java
  com.example.jara_dreamfairy.Marketplace_Activity
  com.example.jara_dreamfairy.Marketplace_Activity$1
@@ -54,6 +55,8 @@ com/example/jara_dreamfairy/Character_selection_Activity.java
  com.example.jara_dreamfairy.Character_selection_Activity$3
  com.example.jara_dreamfairy.Character_selection_Activity$4
  com.example.jara_dreamfairy.Character_selection_Activity$5
+com/example/jara_dreamfairy/model/UserModel.java
+ com.example.jara_dreamfairy.model.UserModel
 com/example/jara_dreamfairy/Splash_activity.java
  com.example.jara_dreamfairy.Splash_activity
  com.example.jara_dreamfairy.Splash_activity$1

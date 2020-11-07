@@ -154,3 +154,15 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 .idea/modules.xml
 local.properties
+*.bin
+*.bin
+*.lock
+*.bin
+*.lock
+*.dex
+*.flat
+*.txt
+*.apk
+*.json
+app/build/intermediates/dex_archive_input_jar_hashes/debug/out
+*.properties

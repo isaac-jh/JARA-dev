@@ -1709,6 +1709,7 @@ drawable generic_confirmation
 drawable generic_confirmation_animation
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_group_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle

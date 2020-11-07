@@ -108,6 +108,10 @@
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_group_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_group_24.xml"
+    },
+    {
         "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },

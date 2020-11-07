@@ -64,7 +64,7 @@ public class Achiev_Activity extends AppCompatActivity implements View.OnClickLi
             {
                 temp=linearLayout[i];
                 linearLayout[i]=linearLayout[linearLayout.length-1];
-                linearLayout[i];
+                //linearLayout[i];
             }
         }
     }
