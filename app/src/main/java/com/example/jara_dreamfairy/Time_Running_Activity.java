@@ -1,8 +1,8 @@
 package com.example.jara_dreamfairy;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -11,102 +11,81 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
-import org.w3c.dom.Text;
+import android.widget.Toast;
 
 import java.util.Locale;
 
-public class Time_Running_Activity extends AppCompatActivity {
 
-    private static final long START_TIME_IN_MILLIS = 600000;
-    private TextView mTextViewCountDown;
-    private Button mButtonStart, mButtonReset;
-    private CountDownTimer mCountDownTimer;
-    private boolean mTimerRunning;
-    private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
+public class Time_Running_Activity extends Activity {
+    TextView Time_text;
+    Button Gift_Btn;
+    ImageView Character, Boss;
 
-
+    private int time;
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.time_running_activity);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
-                | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD );
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+                | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+        Time_text=(TextView)findViewById(R.id.Timer_text);
+        Gift_Btn=(Button)findViewById(R.id.Gift_Btn);
+        Gift_Btn.setVisibility(View.INVISIBLE);
 
-        mTextViewCountDown = (TextView) findViewById(R.id.timer_text);
-        mButtonStart = (Button) findViewById(R.id.start_bnt_time_running);
-        mButtonReset = (Button) findViewById(R.id.reset_bnt_time_running);
+        Character=(ImageView)findViewById(R.id.character);
+        Boss=(ImageView)findViewById(R.id.boss);
 
-        mButtonStart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mTimerRunning) {
-                    pauseTimer();
-                } else {
-                    startTimer();
-                }
-            }
-        });
-        
-
-
-        mButtonReset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                resetTimer();
-            }
-        });
-        updateCountDownText();
+        Time_Running(time);
     }
-        private void startTimer(){
-            mCountDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
-                @Override
-                public void onTick(long millisUntilFinished) {
-                    mTimeLeftInMillis = millisUntilFinished;
-                    updateCountDownText();
-                }
+    public void Time_Running(int Time ){
 
-                @Override
-                public void onFinish() {
-                    mTimerRunning=false;
-                    mButtonStart.setText("Start");
-                    mButtonReset.setVisibility(View.INVISIBLE);
-                    mButtonReset.setVisibility(View.VISIBLE);
-                }
-            }.start();
-            mTimerRunning =true;
-            mButtonStart.setText("pause");
-            mButtonReset.setVisibility(View.INVISIBLE);
-        }
-        private void pauseTimer(){
-            mCountDownTimer.cancel();
-            mTimerRunning= false;
-            mButtonStart.setText("Start");
-            mButtonReset.setVisibility(View.VISIBLE);
-        }
-        private void resetTimer(){
-            mTimeLeftInMillis=START_TIME_IN_MILLIS;
-            updateCountDownText();
-            mButtonReset.setVisibility(View.INVISIBLE);
-            mButtonReset.setVisibility(View.VISIBLE);
-        }
-        private void updateCountDownText(){
-            int minutes=(int)(mTimeLeftInMillis/1000)/60;
-            int seconds=(int)(mTimeLeftInMillis/1000)%60;
+        new CountDownTimer(Time+1000,1000){
 
-            String timeLeftFormatted=String.format(Locale.getDefault(),"%02d:%02d",minutes,seconds);
-            mTextViewCountDown.setText(timeLeftFormatted);
-        }
+            @Override
+            public void onTick(long millisUntilFinished) {
+                int times = (int)(millisUntilFinished / 1000);
+
+                int hours = times/(60*60);
+                int tempMint = (times - (hours*60*60));
+                int minutes = tempMint / 60;
+                times = tempMint - (minutes*60);
+
+                Time_text.setText("보스토벌중 : "+String.format("%02d",hours)
+                        +":"+String.format("%02d",minutes)
+                        +":"+String.format("%02d",times));
 
 
+            }
 
+            @Override
+            public void onFinish() {
+                Gift_Btn.setVisibility(View.VISIBLE);
+
+                Gift_Btn.setOnClickListener(new View.OnClickListener(){
+                    @Override
+                    public void onClick(View view){
+//                        int minutes = (int) (mTimeLeftInMillis / 1000) / 60;
+//                        int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
+
+                        //String timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+                        AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
+                        dig.setTitle("추가보상수령");
+                        dig.setMessage("추가보상수령까지 1분 남았습니다.");
+                        // startTimer();
+                        dig.setPositiveButton("수령하기", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                Toast.makeText(Time_Running_Activity.this, "보상을 수령하셨습니다", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                        dig.show();
+                    }
+                });
+            }
+        }.start();
+    }
 
 }
