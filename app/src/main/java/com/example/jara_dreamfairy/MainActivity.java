@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
     }
     public void Achieve(){
-        Intent intent = new Intent(MainActivity.this, select_boss_activity.class);
+        Intent intent = new Intent(MainActivity.this, Achiev_Activity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
     }

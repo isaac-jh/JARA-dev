@@ -21,6 +21,7 @@
         <activity android:name=".Time_Running_Activity"/>
         <activity android:name=".Setting_Activity" />
         <activity android:name=".Achiev_Activity" />
+        <activity android:name=".select_boss_activity"/>
         <activity android:name=".MainActivity" />
         <activity android:name=".Marketplace_Activity" />
         <activity android:name=".Character_equipment_Activity" />

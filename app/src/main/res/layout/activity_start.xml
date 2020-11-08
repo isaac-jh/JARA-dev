@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/start_bg">
+    android:background="@drawable/splash"
+    tools:context=".Start_Activity">
 
     <ImageButton
         android:id="@+id/TTS"
