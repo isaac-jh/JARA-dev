@@ -1,178 +1,302 @@
 [
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achiev_.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\activity_achiev_.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_archive_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\archive_button_click.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_boss_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\select_boss_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_nickname_dialog_layout.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\nickname_dialog_layout.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_social.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\activity_social.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_character_equipment_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\character_equipment_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_right_to_center.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_right_to_center.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\bg.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_right.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_right.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\item_button.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\splash_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_door_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\door_button.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_bottom_to_center.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_bottom_to_center.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_check_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_check_24.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_mosquito.jpg.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_mosquito.jpg"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_left_to_center.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_left_to_center.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_time_running_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\time_running_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_amp.jpg.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_amp.jpg"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_monitor.jpg.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_monitor.jpg"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_store_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\store_button_click.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_marketplace_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\marketplace_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_right_to_center.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_right_to_center.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_out.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\fade_out.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_marketplace_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\marketplace_activity.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\activity_start.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\setting_button_click.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_character_selection_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\character_selection_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_left.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_left.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background.jpg.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\background.jpg"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_time_running_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\time_running_activity.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_door_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\door_button_click.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\setting_button.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_character_equipment_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\character_equipment_activity.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_noting.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_noting.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_archive_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\archive_button.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_mosquito.jpg.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_mosquito.jpg"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_eyemask.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\eyemask.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_character_select_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\character_select_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\activity_setting_.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achiev_.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\activity_achiev_.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jara_logo.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\jara_logo.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_achiev.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\btn_achiev.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\item_button_click.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_signup_activity.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\signup_activity.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\fade_in.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_top_to_center.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_top_to_center.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earplug.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\earplug.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_star_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_star_24.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_top.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_top.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_right.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_right.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_bottom.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_bottom.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_bottom_to_center.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_bottom_to_center.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_steam_fairy.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\steam_fairy.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg1.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\bg1.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_achiev.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable\\btn_achiev.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_amp.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\amp.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\activity_setting_.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_neckpillow.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\neckpillow.png"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_amp.jpg.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_amp.jpg"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_close_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_close_24.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_left.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_left.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_boss_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\select_boss_activity.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_social.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\layout\\activity_social.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\splash_activity.xml"
     },
     {
-        "merged": "D:\\github\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_in.xml.flat",
-        "source": "D:\\github\\JARA-dev\\app\\src\\main\\res\\anim\\fade_in.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_left_to_center.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_left_to_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_monitor.jpg.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_monitor.jpg"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_noting.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_noting.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_top_to_center.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_top_to_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_setting_and_social_out.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\setting_and_social_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_bottom.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_search_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_person_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_friend_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\friend_button_click.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_setting_and_social.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\setting_and_social.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_group_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_group_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_signup_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\signup_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_top.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_friend_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\friend_button.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_store_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\store_button.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_character_selection_activity.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\character_selection_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_keyboard_arrow_left_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_keyboard_arrow_left_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flapper.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\flapper.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_steam.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\steam.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]
