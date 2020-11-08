@@ -4,50 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:background="@drawable/bg1">
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/timer_text"
+        android:id="@+id/Timer_text"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="322dp"
-        android:layout_marginBottom="33dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="75dp"
         android:gravity="center"
-        android:text="00:00"
-        android:textColor="@android:color/black"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/reset_bnt_time_running"
+        android:text="00:00:00"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/boss"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/start_bnt_time_running"
-        android:layout_width="0dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="166dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="256dp"
-        android:text="start"
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="169dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/boss"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Timer_text"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/steam" />
+
+    <ImageView
+        android:id="@+id/boss"
+        android:layout_width="198dp"
+        android:layout_height="283dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="153dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/reset_bnt_time_running"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/reset_bnt_time_running"
-         />
+        app:layout_constraintStart_toEndOf="@+id/character"
+        app:layout_constraintTop_toBottomOf="@+id/Timer_text"
+        app:srcCompat="@drawable/amp" />
 
     <Button
-        android:id="@+id/reset_bnt_time_running"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="252dp"
-        android:text="reset"
-        android:visibility="invisible"
-        tools:visibility="visible"
+        android:id="@+id/Gift_Btn"
+        android:layout_width="123dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="45dp"
+        android:text="보상수령"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/start_bnt_time_running"
-        app:layout_constraintTop_toBottomOf="@+id/timer_text" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character"
+        app:layout_constraintVertical_bias="0.966"
+        app:srcCompat="@drawable/store_button_click" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
