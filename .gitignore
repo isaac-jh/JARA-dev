@@ -154,6 +154,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 .idea/modules.xml
 local.properties
+<<<<<<< HEAD
 *.bin
 *.bin
 *.lock
@@ -175,3 +176,9 @@ app/build/intermediates/dex_archive_input_jar_hashes/debug/out
 app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources
 *.dex
 *.json
+=======
+.gradle/6.5/fileHashes/fileHashes.lock
+.idea/caches/build_file_checksums.ser
+>>>>>>> master
+*.lock
+*.ser
