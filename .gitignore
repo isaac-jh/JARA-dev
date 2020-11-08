@@ -166,3 +166,12 @@ local.properties
 *.json
 app/build/intermediates/dex_archive_input_jar_hashes/debug/out
 *.properties
+*.bin
+*.lock
+*.jar
+*.dex
+app/build/intermediates/dex_archive_input_jar_hashes/debug/out
+*.txt
+app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources
+*.dex
+*.json

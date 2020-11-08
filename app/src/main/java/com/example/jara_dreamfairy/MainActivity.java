@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void Achieve(){
-        Intent intent = new Intent(MainActivity.this, Achiev_Activity.class);
+        Intent intent = new Intent(MainActivity.this, select_boss_activity.class);
         startActivity(intent);
     }
     public void setting(){

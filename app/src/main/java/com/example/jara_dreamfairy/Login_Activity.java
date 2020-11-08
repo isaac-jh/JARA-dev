@@ -74,7 +74,6 @@ public class Login_Activity extends AppCompatActivity{
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()){
                                 Log.d("signIn", "signInWithEmail:success");
-                                finish();
                                 startActivity(new Intent(Login_Activity.this, Start_Activity.class));
 
                                 overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_bottom);

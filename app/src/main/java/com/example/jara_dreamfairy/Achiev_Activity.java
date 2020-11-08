@@ -19,7 +19,7 @@ import java.util.Collections;
 public class Achiev_Activity extends AppCompatActivity implements View.OnClickListener {
 
     private LinearLayout[] linearLayout = new LinearLayout[7];
-    private ImageButton[] imageButton = new ImageButton[7];
+    private Button[] Button = new Button[7];
     private ProgressBar[] progressBar = new ProgressBar[7];
     private ScrollView scrollView;
 
@@ -45,26 +45,27 @@ public class Achiev_Activity extends AppCompatActivity implements View.OnClickLi
         progressBar[5] = (ProgressBar) findViewById(R.id.achiev_6_progressbar);
         progressBar[6] = (ProgressBar) findViewById(R.id.achiev_7_progressbar);
 
-        imageButton[0] = (ImageButton) findViewById(R.id.achiev_1_imagebutton);
-        imageButton[1] = (ImageButton) findViewById(R.id.achiev_2_imagebutton);
-        imageButton[2] = (ImageButton) findViewById(R.id.achiev_3_imagebutton);
-        imageButton[3] = (ImageButton) findViewById(R.id.achiev_4_imagebutton);
-        imageButton[4] = (ImageButton) findViewById(R.id.achiev_5_imagebutton);
-        imageButton[5] = (ImageButton) findViewById(R.id.achiev_6_imagebutton);
-        imageButton[6] = (ImageButton) findViewById(R.id.achiev_7_imagebutton);
+        Button[0] = (Button) findViewById(R.id.achiev_1_button);
+        Button[1] = (Button) findViewById(R.id.achiev_2_button);
+        Button[2] = (Button) findViewById(R.id.achiev_3_button);
+        Button[3] = (Button) findViewById(R.id.achiev_4_button);
+        Button[4] = (Button) findViewById(R.id.achiev_5_button);
+        Button[5] = (Button) findViewById(R.id.achiev_6_button);
+        Button[6] = (Button) findViewById(R.id.achiev_7_button);
+
         ArrayList arrayList_linearlayout = new ArrayList();
 
         LinearLayout temp;
         for (int i = 0; i < linearLayout.length; i++) {
             if(progressBar[i].isIndeterminate())
             {
-                imageButton[i].setEnabled(false);
+                Button[i].setEnabled(false);
             }
             else
             {
                 temp=linearLayout[i];
                 linearLayout[i]=linearLayout[linearLayout.length-1];
-                //linearLayout[i];
+
             }
         }
     }

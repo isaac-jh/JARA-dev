@@ -48,6 +48,14 @@ com/example/jara_dreamfairy/Time_Running_Activity.java
  com.example.jara_dreamfairy.Time_Running_Activity$3
 com/example/jara_dreamfairy/select_boss_activity.java
  com.example.jara_dreamfairy.select_boss_activity
+ com.example.jara_dreamfairy.select_boss_activity$1
+ com.example.jara_dreamfairy.select_boss_activity$1$1
+ com.example.jara_dreamfairy.select_boss_activity$1$1$1
+ com.example.jara_dreamfairy.select_boss_activity$1$1$2
+ com.example.jara_dreamfairy.select_boss_activity$2
+ com.example.jara_dreamfairy.select_boss_activity$3
+ com.example.jara_dreamfairy.select_boss_activity$4
+ com.example.jara_dreamfairy.select_boss_activity$5
 com/example/jara_dreamfairy/Character_selection_Activity.java
  com.example.jara_dreamfairy.Character_selection_Activity
  com.example.jara_dreamfairy.Character_selection_Activity$1
