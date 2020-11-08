@@ -154,3 +154,5 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 .idea/modules.xml
 local.properties
+.gradle/6.5/fileHashes/fileHashes.lock
+.idea/caches/build_file_checksums.ser
