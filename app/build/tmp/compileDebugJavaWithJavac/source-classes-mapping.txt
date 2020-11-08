@@ -7,10 +7,16 @@ com/example/jara_dreamfairy/Login_Activity.java
  com.example.jara_dreamfairy.Login_Activity$3$1
 com/example/jara_dreamfairy/Setting_Activity.java
  com.example.jara_dreamfairy.Setting_Activity
+ com.example.jara_dreamfairy.Setting_Activity$1
+ com.example.jara_dreamfairy.Setting_Activity$2
+ com.example.jara_dreamfairy.Setting_Activity$3
+ com.example.jara_dreamfairy.Setting_Activity$4
+ com.example.jara_dreamfairy.Setting_Activity$5
 com/example/jara_dreamfairy/BuildConfig.java
  com.example.jara_dreamfairy.BuildConfig
 com/example/jara_dreamfairy/Social_Activity.java
  com.example.jara_dreamfairy.Social_Activity
+ com.example.jara_dreamfairy.Social_Activity$1
 com/example/jara_dreamfairy/Achiev_Activity.java
  com.example.jara_dreamfairy.Achiev_Activity
 com/example/jara_dreamfairy/Character_equipment_Activity.java
@@ -20,12 +26,15 @@ com/example/jara_dreamfairy/Character_equipment_Activity.java
 com/example/jara_dreamfairy/MainActivity.java
  com.example.jara_dreamfairy.MainActivity
  com.example.jara_dreamfairy.MainActivity$1
+ com.example.jara_dreamfairy.MainActivity$10
  com.example.jara_dreamfairy.MainActivity$2
  com.example.jara_dreamfairy.MainActivity$3
  com.example.jara_dreamfairy.MainActivity$4
  com.example.jara_dreamfairy.MainActivity$5
  com.example.jara_dreamfairy.MainActivity$6
  com.example.jara_dreamfairy.MainActivity$7
+ com.example.jara_dreamfairy.MainActivity$8
+ com.example.jara_dreamfairy.MainActivity$9
 com/example/jara_dreamfairy/Start_Activity.java
  com.example.jara_dreamfairy.Start_Activity
  com.example.jara_dreamfairy.Start_Activity$1
@@ -49,13 +58,12 @@ com/example/jara_dreamfairy/Time_Running_Activity.java
 com/example/jara_dreamfairy/select_boss_activity.java
  com.example.jara_dreamfairy.select_boss_activity
  com.example.jara_dreamfairy.select_boss_activity$1
- com.example.jara_dreamfairy.select_boss_activity$1$1
- com.example.jara_dreamfairy.select_boss_activity$1$1$1
- com.example.jara_dreamfairy.select_boss_activity$1$1$2
  com.example.jara_dreamfairy.select_boss_activity$2
  com.example.jara_dreamfairy.select_boss_activity$3
  com.example.jara_dreamfairy.select_boss_activity$4
  com.example.jara_dreamfairy.select_boss_activity$5
+ com.example.jara_dreamfairy.select_boss_activity$6
+ com.example.jara_dreamfairy.select_boss_activity$7
 com/example/jara_dreamfairy/Character_selection_Activity.java
  com.example.jara_dreamfairy.Character_selection_Activity
  com.example.jara_dreamfairy.Character_selection_Activity$1
@@ -63,6 +71,11 @@ com/example/jara_dreamfairy/Character_selection_Activity.java
  com.example.jara_dreamfairy.Character_selection_Activity$3
  com.example.jara_dreamfairy.Character_selection_Activity$4
  com.example.jara_dreamfairy.Character_selection_Activity$5
+com/example/jara_dreamfairy/dialog/nickname_Dialog.java
+ com.example.jara_dreamfairy.dialog.nickname_Dialog
+ com.example.jara_dreamfairy.dialog.nickname_Dialog$1
+ com.example.jara_dreamfairy.dialog.nickname_Dialog$1$1
+ com.example.jara_dreamfairy.dialog.nickname_Dialog$1$1$1
 com/example/jara_dreamfairy/model/UserModel.java
  com.example.jara_dreamfairy.model.UserModel
 com/example/jara_dreamfairy/Splash_activity.java

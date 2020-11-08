@@ -4,13 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
-<<<<<<< HEAD
 import android.view.WindowManager;
-=======
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ScrollView;
->>>>>>> master
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

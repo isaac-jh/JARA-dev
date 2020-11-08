@@ -23,11 +23,9 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
 
     ImageButton prev, next, select;
     ViewFlipper flipper;
-    String[] boss = {"boss_monitor", "boss_mosquito", "boss_amp"};
-    TimePicker start_timepicker, finish_timepicker;
     Button start, finish;
     int start_hour, start_minute, finish_hour, finish_minute;
-    int Parallax,hour, minute;
+    int Parallax, hour, minute;
 
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -37,38 +35,11 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         flipper = (ViewFlipper) findViewById(R.id.flipper);
         prev = (ImageButton) findViewById(R.id.ibtn_prev);
         select = (ImageButton) findViewById(R.id.ibtn_select);
-        select.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                select.setOnClickListener(new View.OnClickListener() {
-
-                    @Override
-                    public void onClick(View v) {
-                        time_calc();
-                        AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
-                        dlg.setTitle("진행하시겠습니까?");
-                        dlg.setMessage(Integer.toString(Parallax));
-                        dlg.setNegativeButton("취소", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int id) {
-                                Toast.makeText(getApplicationContext(), "취소하셨습니다.", Toast.LENGTH_SHORT);
-                            }
-                        });
-                        dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
-                                //타임러닝으로 데이터값을 넘기고 실행.
-                            }
-                        });
-                        dlg.show();
-                    }
-                });
-            }
-        });
         next = (ImageButton) findViewById(R.id.ibtn_next);
-        next.setOnClickListener(this);
+
         prev.setOnClickListener(this);
+        select.setOnClickListener(this);
+        next.setOnClickListener(this);
 
         start = findViewById(R.id.start_timeset);
         start.setOnClickListener(new View.OnClickListener() {
@@ -114,7 +85,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         timePickerDialog.show();
     }
 
-    void time_calc(){
+    void time_calc() {
         if (start_hour > finish_hour) {
             hour = finish_hour - start_hour + 24;
             if (start_minute > finish_minute) {
@@ -132,16 +103,52 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         } else
             minute = finish_minute - start_minute;
 
-        Parallax = hour*3600000+minute*60000;
+        Parallax = hour * 3600000 + minute * 60000;
     }
 
     @Override
     public void onClick(View v) {
-        if(v==prev)
+        if (v == prev)
             flipper.showPrevious();
-        else if(v==next)
+        else if (v == next)
             flipper.showNext();
-
+        else if (v == select) {
+            {
+                time_calc();
+                if (Parallax > 3600000 * 4
+                ) {
+                    AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
+                    dlg.setTitle("진행하시겠습니까?");
+                    dlg.setMessage(Integer.toString(Parallax));
+                    dlg.setNegativeButton("취소", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int id) {
+                            Toast.makeText(getApplicationContext(), "취소하셨습니다.", Toast.LENGTH_SHORT);
+                        }
+                    });
+                    dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
+                            //타임러닝으로 데이터값을 넘기고 실행.
+                        }
+                    });
+                    dlg.show();
+                } else {
+                    AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
+                    dlg.setTitle("최소 수면시간 부족!");
+                    dlg.setMessage("보스 격파를 위한 시간이 부족합니다.(최소 4시간)");
+                    dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
+                            //타임러닝으로 데이터값을 넘기고 실행.
+                        }
+                    });
+                    dlg.show();
+                }
+            }
+        }
     }
 
 }
