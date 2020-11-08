@@ -3,6 +3,7 @@ package com.example.jara_dreamfairy.model;
 public class UserModel {
     public String name = "";
     public int gold = 0;
+    public boolean tutorial = true;
 
     //현재 선택 상황
     public String fairy_state = "";

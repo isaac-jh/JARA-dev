@@ -6,13 +6,19 @@
         android:layout_height="match_parent"
         tools:context=".Social_Activity"
         android:orientation="horizontal"
-        android:background="#A9A9F5">
+        android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
+            android:background="#A9A9F5"
             android:layout_weight="1">
 
             <ImageButton
@@ -62,10 +68,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+
 
 
 

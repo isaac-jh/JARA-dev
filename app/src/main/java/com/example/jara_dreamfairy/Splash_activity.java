@@ -27,7 +27,7 @@ public class Splash_activity extends AppCompatActivity{
             public void run() {
                 startActivity(new Intent(Splash_activity.this, Start_Activity.class));
             }
-        },3000);
+        },2000);
 
 
         overridePendingTransition(R.anim.transition_activity_noting, R.anim.fade_out);

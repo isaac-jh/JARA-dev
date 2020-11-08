@@ -60,18 +60,25 @@ public class Setting_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Setting_Activity.this, MainActivity.class));
-                overridePendingTransition(R.anim.transition_activity_noting, R.anim.setting_and_social_out);
+                overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_right);
             }
         });
 
-        String uid = firebaseAuth.getCurrentUser().getUid();
+        final String uid = firebaseAuth.getCurrentUser().getUid();
 
-        firebaseDatabase.getReference().child("user").child(uid).addValueEventListener(new ValueEventListener() {
+        firebaseDatabase.getReference().child("user").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                UserModel userModel = snapshot.getValue(UserModel.class);
 
-                nickname.setText(userModel.name);
+                for(DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                    if (uid.equals(snapshot.getKey())) {
+                        UserModel userModel = snapshot.getValue(UserModel.class);
+
+                        nickname.setText(userModel.name);
+                    }
+                }
+
+
             }
 
             @Override
