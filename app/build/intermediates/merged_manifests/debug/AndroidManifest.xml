@@ -43,6 +43,11 @@
         <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_selection_Activity" />
         <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
+
+        <receiver android:name="com.example.jara_dreamfairy.ScreenReceiver" />
+
+        <service android:name="com.example.jara_dreamfairy.ScreenService" />
+
         <activity android:name="com.example.jara_dreamfairy.Splash_activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

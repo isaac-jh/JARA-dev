@@ -28,6 +28,7 @@
         <activity android:name=".Start_Activity" />
         <activity android:name=".Signup_Activity" />
         <activity android:name=".Character_selection_Activity" />
+        <activity android:name=".select_boss_activity" />
         <receiver android:name=".ScreenReceiver"></receiver>
         <service android:name=".ScreenService"></service>
         <activity android:name=".Splash_activity">

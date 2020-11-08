@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim blink
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -43,8 +44,6 @@ anim open_on_phone_animation_interpolator_1
 anim open_on_phone_arrow_animation
 anim open_on_phone_path_1_animation
 anim open_on_phone_path_2_animation
-anim setting_and_social
-anim setting_and_social_out
 anim transition_activity_bottom_to_center
 anim transition_activity_center_to_bottom
 anim transition_activity_center_to_left
@@ -1773,6 +1772,8 @@ drawable open_on_phone
 drawable setting_button
 drawable setting_button_click
 drawable splash
+drawable start_bg
+drawable start_button
 drawable steam
 drawable steam_fairy
 drawable store_button
@@ -1818,6 +1819,7 @@ id CTRL
 id Ear_plug
 id Ear_plug_text
 id FUNCTION
+id Gift_Btn
 id Head1_equipment
 id Head1_marketplace
 id Head2_equipment
@@ -1843,6 +1845,7 @@ id Sleep_eye_mask_text
 id TOP_END
 id TOP_START
 id TTS
+id Timer_text
 id WeaponText_marketplace
 id accelerate
 id accessibility_action_clickable_span
@@ -1941,6 +1944,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id boss
 id boss_amp
 id boss_amp_fairyforce
 id boss_amp_name
@@ -1968,6 +1972,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id character
 id character_equipment
 id checkbox
 id checked
@@ -2168,7 +2173,6 @@ id radio
 id ratio
 id rectangles
 id release
-id reset_bnt_time_running
 id reverseSawtooth
 id right
 id right_icon
@@ -2231,7 +2235,6 @@ id standard
 id start
 id startHorizontal
 id startVertical
-id start_bnt_time_running
 id start_timeset
 id staticLayout
 id staticPostLayout
@@ -2270,7 +2273,6 @@ id textinput_prefix_text
 id textinput_suffix_text
 id textviewMessage
 id time
-id timer_text
 id title
 id titleDividerNoCustom
 id title_template

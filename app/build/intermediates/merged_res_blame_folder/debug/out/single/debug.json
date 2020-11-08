@@ -72,6 +72,10 @@
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\setting_button_click.png"
     },
     {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_start_button.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\start_button.png"
+    },
+    {
         "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_left.xml.flat",
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_left.xml"
     },
@@ -144,6 +148,10 @@
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_bottom_to_center.xml"
     },
     {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_start_bg.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\start_bg.png"
+    },
+    {
         "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_steam_fairy.png.flat",
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\steam_fairy.png"
     },
@@ -208,10 +216,6 @@
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\splash.png"
     },
     {
-        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_setting_and_social_out.xml.flat",
-        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\setting_and_social_out.xml"
-    },
-    {
         "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_bottom.xml.flat",
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_bottom.xml"
     },
@@ -228,12 +232,12 @@
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_friend_button_click.png.flat",
-        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\friend_button_click.png"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_blink.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\blink.xml"
     },
     {
-        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_setting_and_social.xml.flat",
-        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\setting_and_social.xml"
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_friend_button_click.png.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\friend_button_click.png"
     },
     {
         "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_group_24.xml.flat",

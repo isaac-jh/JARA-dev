@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [androidx.wear:wear:1.0.0] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\519be574750d9e11e6e822e07b6bcaf4\wear-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\0a5045bc66945a7765a6f0a1f5ff6c5e\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\f8aaae792a30a1f56b0d58cd10f75c0e\material-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -70,20 +70,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\syd03\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\a927cb788b300023746251a8b9416eb7\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\bc08a9b8e8d88a4a706f5b1d66b83db9\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\dd79d1e01e47b86b980b50da804f4b7b\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:2:11-69
@@ -100,7 +100,7 @@ ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:7:19-61
 application
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:9:5-39:19
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:9:5-41:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\0a5045bc66945a7765a6f0a1f5ff6c5e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\0a5045bc66945a7765a6f0a1f5ff6c5e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\syd03\.gradle\caches\transforms-2\files-2.1\f8aaae792a30a1f56b0d58cd10f75c0e\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -212,23 +212,31 @@ ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:30:19-63
 activity#com.example.jara_dreamfairy.select_boss_activity
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:31:9-57
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:31:9-58
 	android:name
 		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:31:19-55
+receiver#com.example.jara_dreamfairy.ScreenReceiver
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:32:9-61
+	android:name
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:32:19-49
+service#com.example.jara_dreamfairy.ScreenService
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:33:9-58
+	android:name
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:33:18-47
 activity#com.example.jara_dreamfairy.Splash_activity
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:32:9-38:20
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:34:9-40:20
 	android:name
-		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:32:19-50
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:34:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml:38:27-74
 uses-sdk
 INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\syd03\OneDrive\Desktop\GitHub\JARA-dev\app\src\main\AndroidManifest.xml
