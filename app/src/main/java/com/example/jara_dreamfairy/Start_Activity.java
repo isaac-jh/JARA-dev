@@ -26,18 +26,26 @@ public class Start_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+        Timer timer = new Timer();
 
         firebaseAuth = FirebaseAuth.getInstance();
         tts = (ImageButton)findViewById(R.id.TTS);
         tts.setVisibility(View.GONE);
 
-        if(firebaseAuth.getCurrentUser() == null){
-            //로그인 안되어있다면 로그인 액티비티로 이동
-            startActivity(new Intent(this, Login_Activity.class));
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                if(firebaseAuth.getCurrentUser() == null){
+                    //로그인 안되어있다면 로그인 액티비티로 이동
+                    startActivity(new Intent(Start_Activity.this, Login_Activity.class));
 
-            overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
-        }
+                    overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+                }
+            }
+        },2000);
 
+        Animation blink = AnimationUtils.loadAnimation(Start_Activity.this, R.anim.blink);
+        tts.startAnimation(blink);
         tts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,15 +59,6 @@ public class Start_Activity extends AppCompatActivity {
 
         tts.setVisibility(View.VISIBLE);
 
-    }
-    private void delay() {
-        Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-
-            }
-        },2000);
     }
 
 }

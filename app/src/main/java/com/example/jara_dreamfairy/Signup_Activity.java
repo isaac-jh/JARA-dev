@@ -31,6 +31,7 @@ public class Signup_Activity extends AppCompatActivity {
     private EditText passwordValueCheck;
     private TextView returnButton;
     private Button signupButton;
+    private EditText nicknameValue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,7 @@ public class Signup_Activity extends AppCompatActivity {
         passwordValueCheck = (EditText)findViewById(R.id.password_again);
         returnButton = (TextView)findViewById(R.id.email_return_button);
         signupButton = (Button)findViewById(R.id.sign_up_button);
+        nicknameValue = (EditText)findViewById(R.id.nickname_EditText);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -99,10 +101,13 @@ public class Signup_Activity extends AppCompatActivity {
 
                             // 유저 기본 정보 데이터베이스에 등록
                             String uid = firebaseAuth.getCurrentUser().getUid();
+                            String nickname = nicknameValue.getText().toString();
 
                             firebaseDatabase = FirebaseDatabase.getInstance();
 
                             UserModel userModel = new UserModel();
+
+                            userModel.name = nickname;
 
                             firebaseDatabase.getReference().child("user").child(uid).setValue(userModel).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override

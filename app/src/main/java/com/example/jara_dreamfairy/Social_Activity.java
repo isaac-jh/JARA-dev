@@ -33,7 +33,7 @@ public class Social_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Social_Activity.this, MainActivity.class));
-                overridePendingTransition(R.anim.transition_activity_noting, R.anim.setting_and_social_out);
+                overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_right);
             }
         });
 

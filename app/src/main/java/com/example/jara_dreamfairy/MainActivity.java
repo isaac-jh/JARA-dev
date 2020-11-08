@@ -1,6 +1,5 @@
 package com.example.jara_dreamfairy;
 
-import androidx.activity.OnBackPressedDispatcherOwner;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,13 +8,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.jara_dreamfairy.dialog.nickname_Dialog;
+import com.example.jara_dreamfairy.dialog.tutorial_Dialog;
 import com.example.jara_dreamfairy.model.UserModel;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -35,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton character;
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
-    private nickname_Dialog nickname_dialog;
+    private tutorial_Dialog tutorial_dialog;
 
     @Override
     public void onBackPressed() {
@@ -75,15 +72,26 @@ public class MainActivity extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
         firebaseAuth = FirebaseAuth.getInstance();
 
-        String uid = firebaseAuth.getCurrentUser().getUid();
-        nickname_dialog = new nickname_Dialog(MainActivity.this);
+        final String uid = firebaseAuth.getCurrentUser().getUid();
+        tutorial_dialog = new tutorial_Dialog(MainActivity.this);
 
-        firebaseDatabase.getReference().child("user").child(uid).addValueEventListener(new ValueEventListener() {
+        firebaseDatabase.getReference().child("user").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                UserModel userModel = snapshot.getValue(UserModel.class);
-                if (userModel.name.equals("") || userModel.name == null)
-                    nickname_dialog.show();
+
+                for(DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                    if (uid.equals(snapshot.getKey())){
+                        UserModel userModel = snapshot.getValue(UserModel.class);
+                        if (userModel.tutorial){
+                            tutorial_dialog.show();
+                            userModel.tutorial = false;
+                            firebaseDatabase.getReference().child("user").child(uid).setValue(userModel);
+                        }
+
+                    }
+
+                }
+
             }
 
             @Override
@@ -166,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
     public void setting(){
         Intent intent = new Intent(MainActivity.this, Setting_Activity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.setting_and_social, R.anim.transition_activity_noting);
+        overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
     }
     public void select(){
         Intent intent = new Intent(MainActivity.this, Character_selection_Activity.class);
@@ -181,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
     public void social() {
         Intent intent = new Intent(MainActivity.this, Social_Activity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.setting_and_social, R.anim.transition_activity_noting);
+        overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
     }
 
 }
