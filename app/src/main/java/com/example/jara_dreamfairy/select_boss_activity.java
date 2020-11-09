@@ -120,11 +120,11 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         else if (v == select) {
             {
                 time_calc();
-                if (Parallax > 3600000 * 4
+                if (Parallax > 0 * 4
                 ) {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
                     dlg.setTitle("진행하시겠습니까?");
-                    dlg.setMessage(Integer.toString(Parallax));
+                    //dlg.setMessage(Integer.toString(Parallax));
                     dlg.setNegativeButton("취소", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int id) {
@@ -135,35 +135,34 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
-<<<<<<< HEAD
+
                             //타임러닝으로 데이터값을 넘기고 실행.(Parallax값,보스 정보)
-=======
+
                             //타임러닝으로 데이터값을 넘기고 실행.
                             Intent intent = new Intent(select_boss_activity.this, Time_Running_Activity.class);
                             intent.putExtra("Time", Parallax);
                             startActivity(intent);
 
 
-
->>>>>>> origin/Jinsan
                         }
                     });
                     dlg.show();
-                } else {
-                    AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
-                    dlg.setTitle("최소 수면시간 부족!");
-                    dlg.setMessage("보스 격파를 위한 시간이 부족합니다.(최소 4시간)");
-                    dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(getApplicationContext(), "다시 시간을 설정해주세요.", Toast.LENGTH_SHORT);
-                        }
-                    });
-                    dlg.show();
-                }
+//                } else {
+//                    AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
+//                    dlg.setTitle("최소 수면시간 부족!");
+//                    dlg.setMessage("보스 격파를 위한 시간이 부족합니다.(최소 4시간)");
+//                    dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            Toast.makeText(getApplicationContext(), "다시 시간을 설정해주세요.", Toast.LENGTH_SHORT);
+//                        }
+//                    });
+//                    dlg.show();
+//                }
                 }
             }
         }
 
     }
+}
 

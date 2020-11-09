@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -17,6 +18,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
+
 import java.util.Locale;
 
 
@@ -25,7 +29,8 @@ public class Time_Running_Activity extends Activity {
     Button Gift_Btn, Start_Btn;
     ImageView Character, Boss;
     int time;
-
+    MediaPlayer m;
+    boolean check = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,21 +47,21 @@ public class Time_Running_Activity extends Activity {
         Gift_Btn=(Button)findViewById(R.id.Gift_Btn);
         Gift_Btn.setVisibility(View.INVISIBLE);
 
-        Start_Btn=(Button)findViewById(R.id.screenlock_start);
+        //Start_Btn=(Button)findViewById(R.id.screenlock_start);
 
         Character=(ImageView)findViewById(R.id.character);
         Boss=(ImageView)findViewById(R.id.boss);
+        GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(Boss);
+        Glide.with(this).load(R.drawable.moving_amp).into(gifImage);
 
-        Start_Btn.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ScreenService.class);
-                startService(intent);
-            }
-        });
-
-
+//        Start_Btn.setOnClickListener(new View.OnClickListener(){
+//
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), ScreenService.class);
+//                startService(intent);
+//            }
+//        });
 
         Time_Running(time);
     }
@@ -73,15 +78,16 @@ public class Time_Running_Activity extends Activity {
                 int minutes = tempMint / 60;
                 times = tempMint - (minutes*60);
 
-                Time_text.setText("보스토벌중 : "+String.format("%02d",hours)
-                        +":"+String.format("%02d",minutes)
-                        +":"+String.format("%02d",times));
+                Time_text.setText("보스토벌중:\n "+String.format("%02d",hours) +":"+String.format("%02d",minutes)+":"+String.format("%02d",times));
+
 
 
             }
 
             @Override
             public void onFinish() {
+                m = MediaPlayer.create(Time_Running_Activity.this, R.raw.music);
+                m.start();
                 Gift_Btn.setVisibility(View.VISIBLE);
 
                 Gift_Btn.setOnClickListener(new View.OnClickListener(){
@@ -91,6 +97,7 @@ public class Time_Running_Activity extends Activity {
 //                        int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
 
                         //String timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+
                         AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
                         dig.setTitle("추가보상수령");
                         dig.setMessage("추가보상수령까지 1분 남았습니다.");
@@ -98,34 +105,60 @@ public class Time_Running_Activity extends Activity {
                         dig.setPositiveButton("수령하기", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
+                                m.stop();
+                                m.release();
                                 Toast.makeText(Time_Running_Activity.this, "보상을 수령하셨습니다", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(Time_Running_Activity.this, MainActivity.class);
-                                startActivity(intent);
-                                overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+                                Main();
 
                             }
                         });
                         dig.show();
+
                     }
                 });
             }
         }.start();
     }
 
+    public void Main() {
+        Intent intent = new Intent(Time_Running_Activity.this, MainActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+    }
+
+
     public void onBackPressed(){
-        Toast.makeText(this, "back키 금지", Toast.LENGTH_SHORT).show();
-        return;
+        AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
+        dig.setTitle("경고");
+        dig.setMessage("지금 나가면 보상을 받을수 없습니다.");
+        dig.setPositiveButton("계속 진행하기", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+               check = true;
+               if(check == true){
+                   return;
+               }
+            }
+        });
+        dig.setNegativeButton("나가기", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Main();
+            }
+        });
+        dig.show();
     }
     protected void onPause(){
         super.onPause();
         ActivityManager activityManager = (ActivityManager)getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
         activityManager.moveTaskToFront(getTaskId(), 0);
+        Main();
         Toast.makeText(this, "메뉴키 사용불가",Toast.LENGTH_SHORT).show();
     }
-    public void onStop(){
-        super.onStop();
-        startActivity(new Intent(this, Time_Running_Activity.class));
-        Toast.makeText(this,"재실행", Toast.LENGTH_SHORT).show();
-    }
+//    public void onStop(){
+//        super.onStop();
+//        startActivity(new Intent(this, Time_Running_Activity.class));
+//        //Toast.makeText(this,"재실행", Toast.LENGTH_SHORT).show();
+//    }
 
 }

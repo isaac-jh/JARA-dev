@@ -8,6 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <uses-feature android:name="android.hardware.type.watch" />

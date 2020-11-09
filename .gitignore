@@ -185,3 +185,6 @@ app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidReso
 *.bin
 *.lock
 *.jar
+*.properties
+*.bin
+*.lock

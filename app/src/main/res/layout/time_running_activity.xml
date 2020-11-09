@@ -45,6 +45,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="153dp"
         android:src="@drawable/amp"
+        android:background="#00ffffff"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/character"
@@ -60,24 +62,24 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/screenlock_start"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Timer_text"
         app:layout_constraintVertical_bias="0.918"
         app:srcCompat="@drawable/store_button_click" />
 
-    <Button
-        android:id="@+id/screenlock_start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="31dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="@+id/Gift_Btn"
-        app:layout_constraintEnd_toStartOf="@+id/Gift_Btn"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/character" />
+    //app:layout_constraintStart_toEndOf="@+id/screenlock_start"
+<!--    <Button-->
+<!--        android:id="@+id/screenlock_start"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginEnd="31dp"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/Gift_Btn"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/Gift_Btn"-->
+<!--        app:layout_constraintHorizontal_bias="0.375"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/character" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
