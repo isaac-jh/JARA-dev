@@ -3,6 +3,7 @@ package com.example.jara_dreamfairy;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.*;
 import android.view.View;
@@ -27,6 +28,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
     int start_hour, start_minute, finish_hour, finish_minute;
     String[] boss = {"amp,monitor,mosquito"};
     int Parallax, hour, minute;
+    Intent intent;
 
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -110,6 +112,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
 
     @Override
     public void onClick(View v) {
+
         if (v == prev)
             flipper.showPrevious();
         else if (v == next)
@@ -132,7 +135,17 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
+<<<<<<< HEAD
                             //타임러닝으로 데이터값을 넘기고 실행.(Parallax값,보스 정보)
+=======
+                            //타임러닝으로 데이터값을 넘기고 실행.
+                            Intent intent = new Intent(select_boss_activity.this, Time_Running_Activity.class);
+                            intent.putExtra("Time", Parallax);
+                            startActivity(intent);
+
+
+
+>>>>>>> origin/Jinsan
                         }
                     });
                     dlg.show();
@@ -148,8 +161,9 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
                     });
                     dlg.show();
                 }
+                }
             }
         }
+
     }
 
-}
