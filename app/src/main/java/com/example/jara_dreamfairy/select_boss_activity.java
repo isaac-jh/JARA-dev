@@ -25,6 +25,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
     ViewFlipper flipper;
     Button start, finish;
     int start_hour, start_minute, finish_hour, finish_minute;
+    String[] boss = {"amp,monitor,mosquito"};
     int Parallax, hour, minute;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +41,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         prev.setOnClickListener(this);
         select.setOnClickListener(this);
         next.setOnClickListener(this);
+
 
         start = findViewById(R.id.start_timeset);
         start.setOnClickListener(new View.OnClickListener() {
@@ -130,7 +132,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
-                            //타임러닝으로 데이터값을 넘기고 실행.
+                            //타임러닝으로 데이터값을 넘기고 실행.(Parallax값,보스 정보)
                         }
                     });
                     dlg.show();
@@ -141,8 +143,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
                     dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
-                            //타임러닝으로 데이터값을 넘기고 실행.
+                            Toast.makeText(getApplicationContext(), "다시 시간을 설정해주세요.", Toast.LENGTH_SHORT);
                         }
                     });
                     dlg.show();

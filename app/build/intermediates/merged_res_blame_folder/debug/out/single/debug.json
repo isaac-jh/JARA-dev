@@ -80,6 +80,10 @@
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_left.xml"
     },
     {
+        "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customborder.xml.flat",
+        "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\drawable\\customborder.xml"
+    },
+    {
         "merged": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_time_running_activity.xml.flat",
         "source": "C:\\Users\\syd03\\OneDrive\\Desktop\\GitHub\\JARA-dev\\app\\src\\main\\res\\layout\\time_running_activity.xml"
     },

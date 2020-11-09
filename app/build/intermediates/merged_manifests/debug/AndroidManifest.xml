@@ -35,6 +35,7 @@
         <activity android:name="com.example.jara_dreamfairy.Time_Running_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Setting_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Achiev_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
         <activity android:name="com.example.jara_dreamfairy.MainActivity" />
         <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
