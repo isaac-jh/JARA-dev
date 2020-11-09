@@ -8,6 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <uses-feature android:name="android.hardware.type.watch" />
@@ -35,6 +36,7 @@
         <activity android:name="com.example.jara_dreamfairy.Time_Running_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Setting_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Achiev_Activity" />
+        <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
         <activity android:name="com.example.jara_dreamfairy.MainActivity" />
         <activity android:name="com.example.jara_dreamfairy.Marketplace_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_equipment_Activity" />
@@ -42,7 +44,11 @@
         <activity android:name="com.example.jara_dreamfairy.Start_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_selection_Activity" />
-        <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
+
+        <receiver android:name="com.example.jara_dreamfairy.ScreenReceiver" />
+
+        <service android:name="com.example.jara_dreamfairy.ScreenService" />
+
         <activity android:name="com.example.jara_dreamfairy.Splash_activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
