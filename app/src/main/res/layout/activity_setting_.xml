@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Setting_Activity"
     android:orientation="horizontal"
-    android:background="@android:color/transparent">
+    android:background="#00ffffff">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#00ffffff"
         android:layout_weight="1"/>
 
 

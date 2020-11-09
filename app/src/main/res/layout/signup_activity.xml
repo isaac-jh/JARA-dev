@@ -72,6 +72,7 @@
             android:id="@+id/nickname_EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:lines="1"
             android:hint="닉네임"/>
 
         <LinearLayout

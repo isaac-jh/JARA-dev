@@ -6,67 +6,68 @@
         android:layout_height="match_parent"
         tools:context=".Social_Activity"
         android:orientation="horizontal"
-        android:background="@android:color/transparent">
+        android:background="#00ffffff">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#00ffffff"
         android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="#A9A9F5"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/setting_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_margin="20dp"
+            android:background="@color/colorButton"
+            android:src="@drawable/ic_baseline_close_24"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_gravity="center_horizontal"
-            android:background="#A9A9F5"
-            android:layout_weight="1">
-
-            <ImageButton
-                android:id="@+id/setting_close"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="left"
-                android:layout_margin="20dp"
-                android:background="@color/colorButton"
-                android:src="@drawable/ic_baseline_close_24"/>
-
-            <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            >
+            <EditText
+                android:id="@+id/search_social"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                >
-                <EditText
-                    android:id="@+id/search_social"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#A0A0A0"
-                    android:hint="search"
-                    android:layout_weight="1"/>
+                android:background="#A0A0A0"
+                android:hint="search"
+                android:layout_weight="1"/>
 
-                <ImageButton
-                    android:id="@+id/add_social"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:background="@color/colorButton"
-                    android:src="@drawable/ic_baseline_person_search_24"/>
-
-            </LinearLayout>
-
-            <ScrollView
-                android:id="@+id/friend_list_social"
+            <ImageButton
+                android:id="@+id/add_social"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="20dp"
-                android:background="@color/colorButton">
-
-            </ScrollView>
-
-
-
-
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/colorButton"
+                android:src="@drawable/ic_baseline_person_search_24"/>
 
         </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/friend_list_social"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@color/colorButton">
+
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
 
 
 

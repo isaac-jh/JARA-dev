@@ -1,11 +1,16 @@
 package com.example.jara_dreamfairy;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Canvas;
+import android.graphics.ColorFilter;
+import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -36,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
 
         alertDialog.setMessage("앱을 종료하시겠습니까?");
@@ -49,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.setNegativeButton("아니요", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                dialog.cancel();
+                return;
             }
         });
 
@@ -87,6 +91,8 @@ public class MainActivity extends AppCompatActivity {
                             userModel.tutorial = false;
                             firebaseDatabase.getReference().child("user").child(uid).setValue(userModel);
                         }
+                        mainCharacter(character, userModel.selectionModel.fairy_state);
+                        gold.setText(userModel.gold);
 
                     }
 
@@ -190,6 +196,21 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Social_Activity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
+    }
+    public void mainCharacter(ImageButton mainCharacter, String fairyState) {
+        if (fairyState.equals("fairy_steam"))
+            mainCharacter.setImageResource(R.drawable.steam_fairy);
+        else if (fairyState.equals("fairy_neckpillow"))
+            mainCharacter.setImageResource(R.drawable.neckpillow);
+        else if (fairyState.equals("fairy_earplug"))
+            mainCharacter.setImageResource(R.drawable.earplug);
+        else if (fairyState.equals("fairy_sleepeyemask"))
+            mainCharacter.setImageResource(R.drawable.eyemask);
+        else if (fairyState.equals("fairy_flapper"))
+            mainCharacter.setImageResource(R.drawable.flapper);
+        else
+            Toast.makeText(MainActivity.this, "캐릭터를 불러오는데 실패했습니다.", Toast.LENGTH_SHORT).show();
+
     }
 
 }
