@@ -32,32 +32,35 @@ public class Start_Activity extends AppCompatActivity {
         tts = (ImageButton)findViewById(R.id.TTS);
         tts.setVisibility(View.GONE);
 
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                if(firebaseAuth.getCurrentUser() == null){
-                    //로그인 안되어있다면 로그인 액티비티로 이동
-                    startActivity(new Intent(Start_Activity.this, Login_Activity.class));
+        if(firebaseAuth.getCurrentUser() == null){
+            //로그인 안되어있다면 로그인 액티비티로 이동
+            startActivity(new Intent(Start_Activity.this, Login_Activity.class));
 
-                    overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
-                }
-            }
-        },2000);
+            overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+        }
 
-        Animation blink = AnimationUtils.loadAnimation(Start_Activity.this, R.anim.blink);
-        tts.startAnimation(blink);
+
+
         tts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //tts.setImageDrawable(getDrawable(R.drawable.TouchToStart)); //TouchToStart 이미지 후에 만들어서 수정 (반짝하는 모션)
                 startActivity(new Intent(Start_Activity.this, MainActivity.class));
 
-                overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_bottom);
+                overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
             }
         });
 
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                Animation blink = AnimationUtils.loadAnimation(Start_Activity.this, R.anim.blink);
+                tts.startAnimation(blink);
+                tts.setVisibility(View.VISIBLE);
+            }
+        },2000);
 
-        tts.setVisibility(View.VISIBLE);
+
 
     }
 

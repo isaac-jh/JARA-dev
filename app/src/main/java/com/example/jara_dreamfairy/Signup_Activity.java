@@ -127,7 +127,7 @@ public class Signup_Activity extends AppCompatActivity {
 
                         }
                         else {
-                            Toast.makeText(Signup_Activity.this, "이미 가입된 이메일입니다.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Signup_Activity.this, "이미 가입된 이메일이거나 네트워크 오류입니다.", Toast.LENGTH_SHORT).show();
 
                         }
                     }

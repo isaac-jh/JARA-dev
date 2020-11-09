@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -78,7 +79,7 @@ public class Login_Activity extends AppCompatActivity{
                                 overridePendingTransition(R.anim.transition_activity_noting, R.anim.transition_activity_center_to_bottom);
                             }
                             else {
-                                Toast.makeText(Login_Activity.this, "이메일과 비밀번호를 다시 확인해주세요.", Toast.LENGTH_LONG).show();
+                                Toast.makeText(Login_Activity.this, "이메일과 비밀번호, 네트워크를 다시 확인해주세요.", Toast.LENGTH_LONG).show();
                                 textViewValue.setText("이메일 또는 비밀번호가 틀렸습니다!");
                                 textViewValue.setTextColor(getColor(R.color.colorWarning));
                             }
@@ -103,19 +104,33 @@ public class Login_Activity extends AppCompatActivity{
                 @Override
                 public void onClick(View v) {
 
-                    String email = emailValue.getText().toString();
-
-                    firebaseAuth.sendPasswordResetEmail(email)
-                            .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                @Override
-                                public void onComplete(@NonNull Task<Void> task) {
-                                    if(task.isSuccessful()){
-                                        Toast.makeText(Login_Activity.this, "등록하신 이메일로 비밀번호 재설정 이메일을 보냈습니다.", Toast.LENGTH_LONG).show();
-                                    } else {
-                                        Toast.makeText(Login_Activity.this, "메일 보내기 실패!", Toast.LENGTH_LONG).show();
-                                    }
-                                }
-                            });
+                    final AlertDialog.Builder findpassdialog = new AlertDialog.Builder(Login_Activity.this);
+                    findpassdialog.setTitle("알림");
+                    findpassdialog.setMessage("이메일 칸에 입력하신 주소로 재설정 메일을 전송합니다.");
+                    findpassdialog.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            String email = emailValue.getText().toString();
+                            firebaseAuth.sendPasswordResetEmail(email)
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if(task.isSuccessful()){
+                                                Toast.makeText(Login_Activity.this, "등록하신 이메일로 비밀번호 재설정 메일을 보냈습니다.", Toast.LENGTH_LONG).show();
+                                            } else {
+                                                Toast.makeText(Login_Activity.this, "메일 보내기 실패!", Toast.LENGTH_LONG).show();
+                                            }
+                                        }
+                                    });
+                        }
+                    });
+                    findpassdialog.setNegativeButton("취소", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    });
+                    findpassdialog.show();
 
                 }
             });

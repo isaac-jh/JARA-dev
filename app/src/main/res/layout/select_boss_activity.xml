@@ -42,9 +42,11 @@
                 android:src="@drawable/amp" />
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
                 <TextView
-                    android:layout_width="250dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:id="@+id/boss_amp_name"
@@ -56,13 +58,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:src="@drawable/ic_baseline_star_24">
                 </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:id="@+id/boss_amp_fairyforce"
                     android:text="10"
                     android:textColor="#ffffff"
@@ -75,7 +78,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:id="@+id/boss_amp_text"
-                android:text="  //파이어베이스 boss_story받아오기"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:text=" 단잠을 방해하는 소리가 실체화된 몬스터.\n피아노, 일렉기타, 드럼 등 여러가지 소리를 낸다."
                 android:textColor="#ffffff"
                 android:textSize="20dp">
             </TextView>
@@ -97,9 +102,11 @@
                 android:src="@drawable/boss_mosquito" />
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
                 <TextView
-                    android:layout_width="250dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:id="@+id/boss_mosquito_name"
@@ -111,13 +118,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:src="@drawable/ic_baseline_star_24">
                 </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:id="@+id/boss_mosquito_fairyforce"
                     android:text="10"
                     android:textColor="#ffffff"
@@ -130,7 +138,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:id="@+id/boss_mosquito_text"
-                android:text="  //파이어베이스 boss_story받아오기"
+                android:textAlignment="center"
+                android:text="여름철을 대표하는 방해꾼.\n어딘가에선 주인공으로 받들어 물리치기도 한다."
                 android:textColor="#ffffff"
                 android:textSize="20dp">
             </TextView>
@@ -151,9 +160,11 @@
                 android:src="@drawable/boss_mosquito" />
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
                 <TextView
-                    android:layout_width="250dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:id="@+id/boss_monitor_name"
@@ -165,13 +176,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:src="@drawable/ic_baseline_star_24">
                 </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:id="@+id/boss_monitor_fairyforce"
                     android:text="10"
                     android:textColor="#ffffff"
@@ -184,7 +196,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:id="@+id/boss_monitor_text"
-                android:text="  //파이어베이스 boss_story받아오기"
+                android:textAlignment="center"
+                android:text="보면 볼수록 빠져드는 몬스터.\n강하진 않지만 한번 빠져들면 헤어나오기 어렵다."
                 android:textColor="#ffffff"
                 android:textSize="20dp">
             </TextView>
