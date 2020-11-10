@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
+import com.bumptech.glide.request.target.DrawableImageViewTarget;
 
 public class Fail_Destroy_Activity extends AppCompatActivity {
 
@@ -24,7 +24,7 @@ public class Fail_Destroy_Activity extends AppCompatActivity {
 
         Fail_text=(TextView)findViewById(R.id.fail_text);
         Boss=(ImageView)findViewById(R.id.boss);
-        GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(Boss);
+        DrawableImageViewTarget gifImage = new DrawableImageViewTarget(Boss);
         Glide.with(this).load(R.drawable.realboss).into(gifImage);
         BackMain_Btn=(Button)findViewById(R.id.BackMain_Btn);
         BackMain_Btn.setOnClickListener(new View.OnClickListener() {
