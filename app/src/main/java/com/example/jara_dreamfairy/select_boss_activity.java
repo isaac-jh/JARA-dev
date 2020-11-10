@@ -123,9 +123,11 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         int minutes = tempMint / 60;
         times = tempMint - (minutes * 60);
 
-        return "설정하신 취침시간 : " + String.format("%02d", hours)
+        String time = "설정하신 취침시간 : " + String.format("%02d", hours)
                 + ":" + String.format("%02d", minutes)
                 + ":" + String.format("%02d", times);
+
+        return time;
     }
 
     @Override

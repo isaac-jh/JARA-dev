@@ -19,7 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
+import com.bumptech.glide.request.target.DrawableImageViewTarget;
 
 import java.util.Locale;
 
@@ -39,20 +39,20 @@ public class Time_Running_Activity extends Activity {
         setContentView(R.layout.time_running_activity);
 
         Intent intent = getIntent();
-        time = intent.getIntExtra("Time",0);
+        time = intent.getIntExtra("Time", 0);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
                 | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
 
-        Time_text=(TextView)findViewById(R.id.Timer_text);
-        Gift_Btn=(Button)findViewById(R.id.Gift_Btn);
+        Time_text = (TextView) findViewById(R.id.Timer_text);
+        Gift_Btn = (Button) findViewById(R.id.Gift_Btn);
         Gift_Btn.setVisibility(View.INVISIBLE);
 
         //Start_Btn=(Button)findViewById(R.id.screenlock_start);
 
-        Character=(ImageView)findViewById(R.id.character);
-        Boss=(ImageView)findViewById(R.id.boss);
-        GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(Boss);
+        Character = (ImageView) findViewById(R.id.character);
+        Boss = (ImageView) findViewById(R.id.boss);
+        DrawableImageViewTarget gifImage = new DrawableImageViewTarget(Boss);
         Glide.with(this).load(R.drawable.realboss).into(gifImage);
         Boss.setScaleType(ImageView.ScaleType.FIT_XY);
 
@@ -68,20 +68,21 @@ public class Time_Running_Activity extends Activity {
 
         Time_Running(time);
     }
-    public void Time_Running(int Time ){
 
-        new CountDownTimer(Time+1000,1000){
+    public void Time_Running(int Time) {
+
+        new CountDownTimer(Time + 1000, 1000) {
 
             @Override
             public void onTick(long millisUntilFinished) {
-                int times = (int)(millisUntilFinished / 1000);
+                int times = (int) (millisUntilFinished / 1000);
 
-                int hours = times/(60*60);
-                int tempMint = (times - (hours*60*60));
+                int hours = times / (60 * 60);
+                int tempMint = (times - (hours * 60 * 60));
                 int minutes = tempMint / 60;
-                times = tempMint - (minutes*60);
+                times = tempMint - (minutes * 60);
 
-                Time_text.setText("보스토벌중:\n "+String.format("%02d",hours) +":"+String.format("%02d",minutes)+":"+String.format("%02d",times));
+                Time_text.setText("보스토벌중:\n " + String.format("%02d", hours) + ":" + String.format("%02d", minutes) + ":" + String.format("%02d", times));
 
 
             }
@@ -92,9 +93,9 @@ public class Time_Running_Activity extends Activity {
                 m.start();
                 Gift_Btn.setVisibility(View.VISIBLE);
 
-                Gift_Btn.setOnClickListener(new View.OnClickListener(){
+                Gift_Btn.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick(View view){
+                    public void onClick(View view) {
 //                        int minutes = (int) (mTimeLeftInMillis / 1000) / 60;
 //                        int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
 
@@ -124,23 +125,23 @@ public class Time_Running_Activity extends Activity {
 
     public void Main() {
         Intent intent = new Intent(Time_Running_Activity.this, MainActivity.class);
-        intent.putExtra("Gold",100);
+        intent.putExtra("Gold", 100);
         startActivity(intent);
         overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
     }
 
 
-    public void onBackPressed(){
+    public void onBackPressed() {
         AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
         dig.setTitle("경고");
         dig.setMessage("지금 나가면 보상을 받을수 없습니다.");
         dig.setPositiveButton("계속 진행하기", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-               check = true;
-               if(check == true){
-                   return;
-               }
+                check = true;
+                if (check == true) {
+                    return;
+                }
             }
         });
         dig.setNegativeButton("나가기", new DialogInterface.OnClickListener() {
@@ -148,16 +149,15 @@ public class Time_Running_Activity extends Activity {
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent = new Intent(Time_Running_Activity.this, MainActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
             }
         });
         dig.show();
     }
 
-    public void onPause(){
+    public void onPause() {
         super.onPause();
-//        ActivityManager activityManager = (ActivityManager)getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
-//        activityManager.moveTaskToFront(getTaskId(), 0);
+        ActivityManager activityManager = (ActivityManager) getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
+        activityManager.moveTaskToFront(getTaskId(), 0);
 
         AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
         dig.setTitle("경고");
@@ -166,7 +166,7 @@ public class Time_Running_Activity extends Activity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 check = true;
-                if(check == true){
+                if (check == true) {
                     return;
                 }
             }
@@ -180,27 +180,19 @@ public class Time_Running_Activity extends Activity {
         dig.show();
     }
 
-    protected void onDestroy(){
+    protected void onDestroy() {
         super.onDestroy();
         Intent intent = new Intent(Time_Running_Activity.this, Fail_Destroy_Activity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
     }
 
+
+    public void onStop() {
+        super.onStop();
+        startActivity(new Intent(this, Time_Running_Activity.class));
+        //Toast.makeText(this,"재실행", Toast.LENGTH_SHORT).show();
     }
 
-//    protected void onPause(){
-//        super.onPause();
-//        ActivityManager activityManager = (ActivityManager)getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
-//        activityManager.moveTaskToFront(getTaskId(), 0);
-//
-//        Main();
-//
-//    }
-//    public void onStop(){
-//        super.onStop();
-//        startActivity(new Intent(this, Time_Running_Activity.class));
-//        //Toast.makeText(this,"재실행", Toast.LENGTH_SHORT).show();
-//    }
+}
 
 
