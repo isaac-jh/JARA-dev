@@ -1674,6 +1674,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable bg
 drawable bg1
+drawable bg3
 drawable boss_amp
 drawable boss_monitor
 drawable boss_mosquito
@@ -1728,6 +1729,7 @@ drawable ic_baseline_close_24
 drawable ic_baseline_group_24
 drawable ic_baseline_keyboard_arrow_left_24
 drawable ic_baseline_keyboard_arrow_right_24
+drawable ic_baseline_monetization_on_24
 drawable ic_baseline_person_search_24
 drawable ic_baseline_star_24
 drawable ic_launcher_background
@@ -1746,8 +1748,6 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
-drawable moving_amp
-drawable moving_amp2
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1772,9 +1772,12 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable open_on_phone
+drawable realboss
+drawable resert_border
 drawable setting_button
 drawable setting_button_click
 drawable splash
+drawable splashmain
 drawable start_bg
 drawable start_button
 drawable steam
@@ -1799,6 +1802,8 @@ drawable ws_switch_thumb_mtrl_16w
 drawable ws_switch_thumb_mtrl_17w
 drawable ws_switch_thumb_mtrl_18w
 drawable ws_switch_track_mtrl
+font font
+font maplestoryfont
 fraction confirmation_overlay_margin_above_text
 fraction confirmation_overlay_margin_side
 fraction ws_action_drawer_item_first_item_top_padding
@@ -1818,6 +1823,7 @@ id ArmorText_marketplace
 id Armor_text
 id BOTTOM_END
 id BOTTOM_START
+id BackMain_Btn
 id CTRL
 id Ear_plug
 id Ear_plug_text
@@ -2045,6 +2051,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fail_text
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2437,6 +2444,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fail_destroy_activity
 layout marketplace_activity
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

@@ -42,6 +42,9 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         select = (ImageButton) findViewById(R.id.ibtn_select);
         next = (ImageButton) findViewById(R.id.ibtn_next);
 
+        start=(Button)findViewById(R.id.start_timeset);
+        finish=(Button)findViewById(R.id.finish_timeset);
+
         prev.setOnClickListener(this);
         select.setOnClickListener(this);
         next.setOnClickListener(this);
@@ -51,7 +54,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                start_showTime(start);
+                start_showTime();
             }
         });
 
@@ -59,36 +62,35 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         finish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish_showTime(finish);
+                finish_showTime();
             }
         });
     }
 
-    void start_showTime(Button button) {
+    void start_showTime() {
         TimePickerDialog timePickerDialog = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                 start_hour = hourOfDay;
                 start_minute = minute;
-
+                start.setText(start_hour + " : " + start_minute);
             }
         }, start_hour, start_minute, false);
 
         timePickerDialog.show();
-        button.setText(start_hour + " : " + start_minute);
     }
 
-    void finish_showTime(Button button) {
+    void finish_showTime() {
         TimePickerDialog timePickerDialog = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                 finish_hour = hourOfDay;
                 finish_minute = minute;
+                finish.setText(finish_hour+":"+finish_minute);
             }
         }, finish_hour, finish_minute, false);
 
         timePickerDialog.show();
-        button.setText(finish_hour + " : " + finish_minute);
     }
 
     void time_calc() {
@@ -114,16 +116,16 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
 
     private String timeforhuman(int Parallax) {
 
-        int times = (int)(Parallax / 1000);
+        int times = (int) (Parallax / 1000);
 
-        int hours = times/(60*60);
-        int tempMint = (times - (hours*60*60));
+        int hours = times / (60 * 60);
+        int tempMint = (times - (hours * 60 * 60));
         int minutes = tempMint / 60;
-        times = tempMint - (minutes*60);
+        times = tempMint - (minutes * 60);
 
-        return "설정하신 취침시간 : "+String.format("%02d",hours)
-                +":"+String.format("%02d",minutes)
-                +":"+String.format("%02d",times);
+        return "설정하신 취침시간 : " + String.format("%02d", hours)
+                + ":" + String.format("%02d", minutes)
+                + ":" + String.format("%02d", times);
     }
 
     @Override
@@ -136,7 +138,7 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
         else if (v == select) {
             {
                 time_calc();
-                if (Parallax > 3600000 * 4
+                if (Parallax > 0 * 4
                 ) {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
                     dlg.setTitle("진행하시겠습니까?");
@@ -153,51 +155,49 @@ public class select_boss_activity extends AppCompatActivity implements View.OnCl
                         public void onClick(DialogInterface dialog, int which) {
 
                             // REORDER_TASKS , WAKE_LOCK 권한 확인
-                            if (checkSelfPermission(Manifest.permission.REORDER_TASKS) == PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.WAKE_LOCK) == PackageManager.PERMISSION_GRANTED){
+                            if (checkSelfPermission(Manifest.permission.REORDER_TASKS) == PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.WAKE_LOCK) == PackageManager.PERMISSION_GRANTED) {
                                 Toast.makeText(getApplicationContext(), "해당 정보로 진행합니다.", Toast.LENGTH_SHORT);
 
                                 //타임러닝으로 데이터값을 넘기고 실행.
                                 Intent intent = new Intent(select_boss_activity.this, Time_Running_Activity.class);
                                 intent.putExtra("Time", Parallax);
                                 startActivity(intent);
-                                overridePendingTransition(R.anim.transition_activity_right_to_center,R.anim.transition_activity_noting);
-                            }
-                            else {
+                                overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
+                            } else {
                                 // 권한이 없는경우
-                                if (shouldShowRequestPermissionRationale(Manifest.permission.REORDER_TASKS)){
+                                if (shouldShowRequestPermissionRationale(Manifest.permission.REORDER_TASKS)) {
                                     Toast.makeText(getApplicationContext(), "원활한 앱 실행을 위해 권한을 필요로 합니다.", Toast.LENGTH_SHORT);
                                 }
 
-                                if (shouldShowRequestPermissionRationale(Manifest.permission.WAKE_LOCK)){
+                                if (shouldShowRequestPermissionRationale(Manifest.permission.WAKE_LOCK)) {
                                     Toast.makeText(getApplicationContext(), "원활한 앱 실행을 위해 권한을 필요로 합니다.", Toast.LENGTH_SHORT);
                                 }
 
-                                requestPermissions(new String[] {Manifest.permission.REORDER_TASKS}, 0);
-                                requestPermissions(new String[] {Manifest.permission.WAKE_LOCK},0);
+                                requestPermissions(new String[]{Manifest.permission.REORDER_TASKS}, 0);
+                                requestPermissions(new String[]{Manifest.permission.WAKE_LOCK}, 0);
                                 dialog.dismiss();
 
                             }
 
 
-
                         }
                     });
                     dlg.show();
-                } else {
-                    AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
-                    dlg.setTitle("최소 수면시간 부족!");
-                    dlg.setMessage("보스 격파를 위한 시간이 부족합니다.(최소 4시간)");
-                    dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(getApplicationContext(), "다시 시간을 설정해주세요.", Toast.LENGTH_SHORT);
-                        }
-                    });
-                    dlg.show();
-                }
+//                } else {
+//                    AlertDialog.Builder dlg = new AlertDialog.Builder(select_boss_activity.this);
+//                    dlg.setTitle("최소 수면시간 부족!");
+//                    dlg.setMessage("보스 격파를 위한 시간이 부족합니다.(최소 4시간)");
+//                    dlg.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            Toast.makeText(getApplicationContext(), "다시 시간을 설정해주세요.", Toast.LENGTH_SHORT);
+//                        }
+//                    });
+//                    dlg.show();
+//                }
                 }
             }
         }
 
     }
-
+}

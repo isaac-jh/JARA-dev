@@ -44,7 +44,6 @@
         <activity android:name="com.example.jara_dreamfairy.Start_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Signup_Activity" />
         <activity android:name="com.example.jara_dreamfairy.Character_selection_Activity" />
-        <activity android:name="com.example.jara_dreamfairy.select_boss_activity" />
 
         <receiver android:name="com.example.jara_dreamfairy.ScreenReceiver" />
 

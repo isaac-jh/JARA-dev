@@ -2,9 +2,10 @@ package com.example.jara_dreamfairy;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Canvas;
@@ -38,33 +39,41 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
     private tutorial_Dialog tutorial_dialog;
+    private int GOLD;
 
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
 
-        alertDialog.setMessage("앱을 종료하시겠습니까?");
-        alertDialog.setPositiveButton("예", new DialogInterface.OnClickListener() {
+    public void onBackPressed(){
+        android.app.AlertDialog.Builder dig = new AlertDialog.Builder(MainActivity.this);
+        dig.setTitle("경고");
+        dig.setMessage("앱을 종료하시겠습니까?");
+        dig.setPositiveButton("예", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
+            public void onClick(DialogInterface dialogInterface, int i) {
                 finish();
+                ActivityCompat.finishAffinity(MainActivity.this);
+                System.exit(0);
             }
         });
-        alertDialog.setNegativeButton("아니요", new DialogInterface.OnClickListener() {
+        dig.setNegativeButton("아니요", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
+            public void onClick(DialogInterface dialogInterface, int i) {
                 return;
             }
         });
-
+        dig.show();
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent intent = getIntent();
+        GOLD= intent.getIntExtra("Gold",0);
+
         gold = (TextView)findViewById(R.id.text_gold_main);
+        gold.setText(Integer.toString(GOLD));
         setting = (ImageButton)findViewById(R.id.button_setting_main);
         social = (ImageButton)findViewById(R.id.button_social_main);
         equipment = (ImageButton)findViewById(R.id.equipment_main);

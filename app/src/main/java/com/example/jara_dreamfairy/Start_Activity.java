@@ -51,15 +51,24 @@ public class Start_Activity extends AppCompatActivity {
             }
         });
 
-        timer.schedule(new TimerTask() {
+//        timer.schedule(new TimerTask() {
+//            @Override
+//            public void run() {
+//                Animation blink = AnimationUtils.loadAnimation(Start_Activity.this, R.anim.blink);
+//                tts.startAnimation(blink);
+//                tts.setVisibility(View.VISIBLE);
+//            }
+//        },2000);
+
+        runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 Animation blink = AnimationUtils.loadAnimation(Start_Activity.this, R.anim.blink);
                 tts.startAnimation(blink);
                 tts.setVisibility(View.VISIBLE);
-            }
-        },2000);
 
+            }
+        });
 
 
     }

@@ -31,6 +31,7 @@ public class Time_Running_Activity extends Activity {
     int time;
     MediaPlayer m;
     boolean check = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +53,9 @@ public class Time_Running_Activity extends Activity {
         Character=(ImageView)findViewById(R.id.character);
         Boss=(ImageView)findViewById(R.id.boss);
         GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(Boss);
-        Glide.with(this).load(R.drawable.moving_amp).into(gifImage);
+        Glide.with(this).load(R.drawable.realboss).into(gifImage);
+        Boss.setScaleType(ImageView.ScaleType.FIT_XY);
+
 
 //        Start_Btn.setOnClickListener(new View.OnClickListener(){
 //
@@ -81,7 +84,6 @@ public class Time_Running_Activity extends Activity {
                 Time_text.setText("보스토벌중:\n "+String.format("%02d",hours) +":"+String.format("%02d",minutes)+":"+String.format("%02d",times));
 
 
-
             }
 
             @Override
@@ -100,7 +102,7 @@ public class Time_Running_Activity extends Activity {
 
                         AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
                         dig.setTitle("추가보상수령");
-                        dig.setMessage("추가보상수령까지 1분 남았습니다.");
+                        //dig.setMessage("추가보상수령까지 1분 남았습니다.");
                         // startTimer();
                         dig.setPositiveButton("수령하기", new DialogInterface.OnClickListener() {
                             @Override
@@ -122,6 +124,7 @@ public class Time_Running_Activity extends Activity {
 
     public void Main() {
         Intent intent = new Intent(Time_Running_Activity.this, MainActivity.class);
+        intent.putExtra("Gold",100);
         startActivity(intent);
         overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
     }
@@ -143,22 +146,61 @@ public class Time_Running_Activity extends Activity {
         dig.setNegativeButton("나가기", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Main();
+                Intent intent = new Intent(Time_Running_Activity.this, MainActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
             }
         });
         dig.show();
     }
-    protected void onPause(){
+
+    public void onPause(){
         super.onPause();
-        ActivityManager activityManager = (ActivityManager)getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
-        activityManager.moveTaskToFront(getTaskId(), 0);
-        Main();
-        Toast.makeText(this, "메뉴키 사용불가",Toast.LENGTH_SHORT).show();
+//        ActivityManager activityManager = (ActivityManager)getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
+//        activityManager.moveTaskToFront(getTaskId(), 0);
+
+        AlertDialog.Builder dig = new AlertDialog.Builder(Time_Running_Activity.this);
+        dig.setTitle("경고");
+        dig.setMessage("지금 나가면 보상을 받을수 없습니다.");
+        dig.setPositiveButton("계속 진행하기", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                check = true;
+                if(check == true){
+                    return;
+                }
+            }
+        });
+        dig.setNegativeButton("나가기", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+        dig.show();
     }
+
+    protected void onDestroy(){
+        super.onDestroy();
+        Intent intent = new Intent(Time_Running_Activity.this, Fail_Destroy_Activity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+    }
+
+    }
+
+//    protected void onPause(){
+//        super.onPause();
+//        ActivityManager activityManager = (ActivityManager)getApplicationContext().getSystemService(Context.ACTIVITY_SERVICE);
+//        activityManager.moveTaskToFront(getTaskId(), 0);
+//
+//        Main();
+//
+//    }
 //    public void onStop(){
 //        super.onStop();
 //        startActivity(new Intent(this, Time_Running_Activity.class));
 //        //Toast.makeText(this,"재실행", Toast.LENGTH_SHORT).show();
 //    }
 
-}
+

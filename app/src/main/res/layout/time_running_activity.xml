@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg3"
     android:orientation="vertical">
 
 
@@ -16,7 +16,8 @@
         android:layout_marginBottom="75dp"
         android:gravity="center"
         android:text="00:00:00"
-        android:textColor="@android:color/white"
+        android:fontFamily="@font/maplestoryfont"
+        android:textColor="@android:color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/boss"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,8 +27,8 @@
 
     <ImageView
         android:id="@+id/character"
-        android:layout_width="218dp"
-        android:layout_height="233dp"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="13dp"
@@ -44,7 +45,7 @@
         android:layout_height="353dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="153dp"
-        android:src="@drawable/amp"
+        android:src="@drawable/realboss"
         android:background="#00ffffff"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,6 +60,10 @@
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="45dp"
         android:text="보상수령"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/maplestoryfont"
+        android:background="@drawable/resert_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

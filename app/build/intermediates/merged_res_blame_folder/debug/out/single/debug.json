@@ -12,8 +12,16 @@
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\layout\\select_boss_activity.xml"
     },
     {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\font_maplestoryfont.ttf.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\font\\maplestoryfont.ttf"
+    },
+    {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_center_to_right.xml.flat",
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_center_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_realboss.gif.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\realboss.gif"
     },
     {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_button_click.png.flat",
@@ -44,8 +52,16 @@
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\anim\\blink.xml"
     },
     {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_monetization_on_24.xml.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_monetization_on_24.xml"
+    },
+    {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_button.png.flat",
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable\\item_button.png"
+    },
+    {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_splashmain.png.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\splashmain.png"
     },
     {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_social.xml.flat",
@@ -152,12 +168,16 @@
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable\\friend_button.png"
     },
     {
-        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_moving_amp2.gif.flat",
-        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\moving_amp2.gif"
-    },
-    {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boss_monitor.jpg.flat",
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\boss_monitor.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_fail_destroy_activity.xml.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\layout\\fail_destroy_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\font_font.xml.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\font\\font.xml"
     },
     {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_character_equipment_activity.xml.flat",
@@ -236,6 +256,10 @@
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable\\start_bg.png"
     },
     {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_resert_border.xml.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\resert_border.xml"
+    },
+    {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_amp.png.flat",
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\amp.png"
     },
@@ -292,10 +316,6 @@
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable\\door_button.png"
     },
     {
-        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_moving_amp.gif.flat",
-        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\moving_amp.gif"
-    },
-    {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\anim_transition_activity_noting.xml.flat",
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\anim\\transition_activity_noting.xml"
     },
@@ -306,6 +326,10 @@
     {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_star_24.xml.flat",
         "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable\\ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg3.png.flat",
+        "source": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\src\\main\\res\\drawable-v24\\bg3.png"
     },
     {
         "merged": "C:\\Users\\LeeJinSan\\Desktop\\Jara\\JARA-dev\\app\\build\\intermediates\\res\\merged\\debug\\layout_time_running_activity.xml.flat",

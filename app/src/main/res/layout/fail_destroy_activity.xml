@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fail_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:text="클리어 실패.."
+        android:fontFamily="@font/maplestoryfont"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/boss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/boss"
+        android:layout_width="234dp"
+        android:layout_height="353dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="160dp"
+        android:background="#00ffffff"
+        android:scaleType="fitXY"
+        android:src="@drawable/amp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fail_text" />
+
+    <Button
+        android:id="@+id/BackMain_Btn"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="44dp"
+        android:text="Main"
+        android:background="@drawable/resert_border"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fail_text"
+        app:layout_constraintVertical_bias="0.918"
+        app:srcCompat="@drawable/store_button_click" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
