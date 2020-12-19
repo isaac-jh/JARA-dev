@@ -172,19 +172,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equipment(){
-        Intent intent = new Intent(MainActivity.this, Character_equipment_Activity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+//        Intent intent = new Intent(MainActivity.this, Character_equipment_Activity.class);
+//        startActivity(intent);
+//        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+        Toast.makeText(MainActivity.this, "개발 중 입니다.", Toast.LENGTH_LONG).show();
     }
     public void marketplace(){
-        Intent intent = new Intent(MainActivity.this, Marketplace_Activity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+//        Intent intent = new Intent(MainActivity.this, Marketplace_Activity.class);
+//        startActivity(intent);
+//        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+        Toast.makeText(MainActivity.this, "개발 중 입니다.", Toast.LENGTH_LONG).show();
     }
     public void Achieve(){
-        Intent intent = new Intent(MainActivity.this, Achiev_Activity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+//        Intent intent = new Intent(MainActivity.this, Achiev_Activity.class);
+//        startActivity(intent);
+//        overridePendingTransition(R.anim.transition_activity_bottom_to_center, R.anim.transition_activity_noting);
+        Toast.makeText(MainActivity.this, "개발 중 입니다.", Toast.LENGTH_LONG).show();
     }
     public void setting(){
         Intent intent = new Intent(MainActivity.this, Setting_Activity.class);
@@ -192,9 +195,10 @@ public class MainActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.transition_activity_right_to_center, R.anim.transition_activity_noting);
     }
     public void select(){
-        Intent intent = new Intent(MainActivity.this, Character_selection_Activity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.transition_activity_top_to_center, R.anim.transition_activity_noting);
+//        Intent intent = new Intent(MainActivity.this, Character_selection_Activity.class);
+//        startActivity(intent);
+//        overridePendingTransition(R.anim.transition_activity_top_to_center, R.anim.transition_activity_noting);
+        Toast.makeText(MainActivity.this, "개발 중 입니다.", Toast.LENGTH_LONG).show();
     }
     public void selectBoss() {
         Intent intent = new Intent(MainActivity.this, select_boss_activity.class);
