@@ -15,6 +15,6 @@ use your reward to raise your character.
 
 we're considering about posting this application to Google app store if completeness is high.
 
-advise is always helping us. :) please send to icetime96@gmail.com
+advise is always helping us. :) please send to icetime963@gmail.com
 
 Thank you !
