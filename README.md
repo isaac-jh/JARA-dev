@@ -38,23 +38,23 @@ JARA는 수면에 도움이 되는 물건들을 모티브로 한 캐릭터를 �
 
 #### 개발 스택
 
-**Android Version: Nougat 7.0 (APK Level 24)**
-- 전 연령이 가볍게 즐길 수 있는 앱을 목표로 했기 때문에 스마트폰 평균 수명이라고 알려진 2년보다 조금 더 시간을 두어 버전을 낮춰 설정했습니다. (Nougat Released at 16.08.22)
-- 또한 벤치마킹한 앱인 Forest와 Sleeptown 앱이 멀티윈도우 이용 차단을 구현했기 때문에 이를 클론해보려는 도전도 있었습니다. (멀티윈도우 기능은 Nougat에서 업데이트 되었습니다.)  
-
+**Android Version: Nougat 7.0 (APK Level 24)**  
 **Android Studio (Java) 4.0.0 ver**  
 **Google Firebase**  
 **Git / Github**  
 **Discord**  
 
 클라이언트는 모두 Android Studio로 제작되었습니다.  
-앱 서버와 관련된 내용은 전부 Firebase로 구축하고 Firebase API를 활용하여 접근했습니다. 사용한 기능은 다음과 같습니다.
+앱 서버와 관련된 내용은 전부 Firebase로 구축하고 Firebase API를 활용하여 접근했습니다.  
+Firebase를 통해 사용한 기능은 다음과 같습니다.
 - Remote Control을 통한 원격 제어
 - RealtimeDB를 통한 유저 정보 저장
 - Auth를 통한 유저 인증
-  
-소스 버전 관리는 Git과 Github를 통해 하였습니다.  
-협업은 Discord를 통해 원격으로 커뮤니케이션 하였습니다.  
+
+- 전 연령이 가볍게 즐길 수 있는 앱을 목표로 했기 때문에 스마트폰 평균 수명이라고 알려진 2년보다 조금 더 시간을 두어 버전을 낮춰 설정했습니다. (Nougat Released at 16.08.22)
+  또한 벤치마킹한 앱인 Forest와 Sleeptown 앱이 멀티윈도우 이용 차단을 구현했기 때문에 이를 클론해보려는 도전도 있었습니다. (멀티윈도우 기능은 Nougat에서 업데이트 되었습니다.)  
+- 소스 버전 관리는 Git과 Github를 통해 하였습니다.  
+- 협업은 Discord를 통해 원격으로 커뮤니케이션 하였습니다.  
 
 #### 간단하게 보는 주요 기능들
 
